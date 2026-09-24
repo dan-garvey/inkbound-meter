@@ -1,0 +1,7157 @@
+[
+  {
+    "action": "ChiEruption_PhysicalDamage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "ChiEruption_AbilityData"
+      },
+      "fresh": [
+        17,
+        54
+      ],
+      "full_history": true,
+      "positions": {
+        "17": [
+          166573,
+          23324
+        ],
+        "54": [
+          185097,
+          19866
+        ]
+      },
+      "stats": {
+        "17": {
+          "3FXVvW6T": 70,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "J6UByQa8": 8,
+          "LJxk6hNN": 2,
+          "PRT1pX5D": 1,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 1,
+          "VsP2ynv6": 1,
+          "X5A81guj": 1,
+          "bFwnYuVx": 4,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hqrnJm1B": 1,
+          "jQTead3o": 1,
+          "kvrYgaKv": 55,
+          "nJj1wHLS": 50,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zhfm1nvz": 1000
+        },
+        "54": {
+          "3TCx0XPg": 0,
+          "713brG5P": 8,
+          "SF1ScOK9": 2,
+          "VOj3zfre": 400,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 0,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_PhysicalTrigger_StatusEffect",
+          "instance": 5,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 6,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 7,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Potion_Common_Shield_StatusEffect",
+          "instance": 8,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChallengeBuff_Lifelink_StatusEffect",
+          "instance": 16,
+          "source": 54,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 17,
+          "source": 54,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 18,
+          "source": 54,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 19,
+          "source": -1,
+          "stacks": 1,
+          "target": 54
+        }
+      ],
+      "units": {
+        "17": "BasePlayerData",
+        "54": "Bomber_Medium_ALL_T1_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "ChiEruption_AbilityData",
+        "action": "ChiEruption_PhysicalDamage_Action",
+        "amount": 196,
+        "critical": true,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 54,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T17:12:27 23"
+    },
+    "expected_components": [
+      {
+        "damage": 115.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 80.5,
+        "name": "Critical hit"
+      },
+      {
+        "damage": 0.5,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "ChiEruption_PhysicalDamage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "ChiEruption_AbilityData"
+      },
+      "fresh": [
+        17,
+        151
+      ],
+      "full_history": true,
+      "positions": {
+        "151": [
+          296796,
+          311132
+        ],
+        "17": [
+          310522,
+          331366
+        ]
+      },
+      "stats": {
+        "151": {
+          "3TCx0XPg": 0,
+          "713brG5P": 5,
+          "SF1ScOK9": 4,
+          "VOj3zfre": 1656,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 25,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pq6hlsOe": 12
+        },
+        "17": {
+          "0QrjYnv0": 0,
+          "1eaM7rNc": 0,
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 0,
+          "5xqtVYwj": 0,
+          "7jRKQfkN": 1,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "DxY3kHVl": 0,
+          "GQJcb8UF": 0,
+          "J6UByQa8": 8,
+          "L0SCtKk4": 0,
+          "LJxk6hNN": 3,
+          "NxVGBPfl": 0,
+          "OQ28xEWt": 0,
+          "PHrOB2gl": 0,
+          "PRT1pX5D": 2,
+          "Rt7YTCzq": 0,
+          "S6n8nHlc": 1,
+          "TnfhYmFe": 0,
+          "UtFcUMPs": 0,
+          "VOj3zfre": 42,
+          "VsP2ynv6": 1,
+          "WD805Esj": 0,
+          "X5A81guj": 1,
+          "aV0uwLwE": 1,
+          "bFwnYuVx": 4,
+          "bL6sc2vt": 0,
+          "ddo60Xb9": 25,
+          "ewyMKwUQ": 1000,
+          "gKrWSp5L": 0,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hjeFxRp3": 0,
+          "jQTead3o": 1,
+          "kerMIhax": 0,
+          "kpnF2coo": 9,
+          "kvrYgaKv": 49,
+          "mfKDfKsN": 1,
+          "mqVUQBEP": 0,
+          "nJj1wHLS": 45,
+          "oOgX0apx": 0,
+          "rdfKyT1H": 2,
+          "s8zdvXyu": 0,
+          "sqThf2PJ": 0,
+          "uRzl2H2M": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "xesV8rVa": 0,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 15,
+          "zhfm1nvz": 1000
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 31,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 32,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 33,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 34,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 35,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 37,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RankedDifficulty_7_Reroll_StatusEffect",
+          "instance": 39,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RankedDifficulty_9_MaxHP_StatusEffect",
+          "instance": 40,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 41,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Targetting_StatusEffect",
+          "instance": 44,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 75,
+          "source": 17,
+          "stacks": 3,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 99,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 100,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Uncommon_SneakAttack_StatusEffect",
+          "instance": 106,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 110,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Fabled_Set_2_StatusEffect",
+          "instance": 111,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Bane_EnemyDamageResistanceRemoveWhenHit_Manager_StatusEffect",
+          "instance": 116,
+          "source": 151,
+          "stacks": 1,
+          "target": 151
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 117,
+          "source": -1,
+          "stacks": 1,
+          "target": 151
+        },
+        {
+          "effect": "Bane_EnemyDamageResistanceRemoveWhenHit_DamageReduction_StatusEffect",
+          "instance": 130,
+          "source": 151,
+          "stacks": 1,
+          "target": 151
+        },
+        {
+          "effect": "VestigeAll_Uncommon_SneakAttack_DamageCheck_StatusEffect",
+          "instance": 139,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "C08_ComboBuilder_StatusEffect",
+          "instance": 154,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_PhysicalTrigger_StatusEffect",
+          "instance": 155,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        }
+      ],
+      "units": {
+        "151": "Jumper_Medium_MKT_T1_Unit",
+        "17": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "ChiEruption_AbilityData",
+        "action": "ChiEruption_PhysicalDamage_Action",
+        "amount": 125,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 151,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "1T00:22:43 63"
+    },
+    "expected_components": [
+      {
+        "damage": 115.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 17.25,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 10.35,
+        "name": "Omni damage"
+      },
+      {
+        "damage": -0.44,
+        "name": "Rounding"
+      },
+      {
+        "damage": -17.16,
+        "name": "Uncapped damage reduction"
+      }
+    ]
+  },
+  {
+    "action": "InfusedFist_Teleport_ActionData",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "InfusedFist_AbilityData"
+      },
+      "fresh": [
+        17,
+        54
+      ],
+      "full_history": true,
+      "positions": {
+        "17": [
+          167443,
+          11376
+        ],
+        "54": [
+          185097,
+          19866
+        ]
+      },
+      "stats": {
+        "17": {
+          "3FXVvW6T": 70,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "J6UByQa8": 8,
+          "LJxk6hNN": 2,
+          "PRT1pX5D": 1,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 49,
+          "VsP2ynv6": 1,
+          "X5A81guj": 1,
+          "bFwnYuVx": 4,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hqrnJm1B": 1,
+          "jQTead3o": 1,
+          "kpnF2coo": 3,
+          "kvrYgaKv": 2,
+          "nJj1wHLS": 50,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zhfm1nvz": 1000
+        },
+        "54": {
+          "3TCx0XPg": 0,
+          "713brG5P": 8,
+          "SF1ScOK9": 2,
+          "VOj3zfre": 400,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 0,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_PhysicalTrigger_StatusEffect",
+          "instance": 5,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 6,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 7,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Potion_Common_Shield_StatusEffect",
+          "instance": 8,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChallengeBuff_Lifelink_StatusEffect",
+          "instance": 16,
+          "source": 54,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 17,
+          "source": 54,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 18,
+          "source": 54,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 19,
+          "source": -1,
+          "stacks": 1,
+          "target": 54
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 29,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        }
+      ],
+      "units": {
+        "17": "BasePlayerData",
+        "54": "Bomber_Medium_ALL_T1_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "InfusedFist_AbilityData",
+        "action": "InfusedFist_Teleport_ActionData",
+        "amount": 103,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 54,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T17:12:49 22"
+    },
+    "expected_components": [
+      {
+        "damage": 100.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 3.0,
+        "name": "Omni damage"
+      }
+    ]
+  },
+  {
+    "action": "InfusedFist_Teleport_ActionData",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "InfusedFist_AbilityData"
+      },
+      "fresh": [
+        152,
+        17
+      ],
+      "full_history": true,
+      "positions": {
+        "152": [
+          307919,
+          324083
+        ],
+        "17": [
+          316060,
+          335734
+        ]
+      },
+      "stats": {
+        "152": {
+          "3TCx0XPg": 0,
+          "713brG5P": 5,
+          "FtBty9sm": 10,
+          "SF1ScOK9": 5,
+          "VOj3zfre": 4140,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pq6hlsOe": 24
+        },
+        "17": {
+          "0QrjYnv0": 0,
+          "1eaM7rNc": 0,
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 0,
+          "5xqtVYwj": 0,
+          "7jRKQfkN": 1,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "DxY3kHVl": 0,
+          "GQJcb8UF": 0,
+          "J6UByQa8": 8,
+          "L0SCtKk4": 0,
+          "LJxk6hNN": 3,
+          "NxVGBPfl": 0,
+          "OQ28xEWt": 0,
+          "PHrOB2gl": 0,
+          "PRT1pX5D": 2,
+          "Rt7YTCzq": 0,
+          "S6n8nHlc": 1,
+          "TnfhYmFe": 0,
+          "UtFcUMPs": 0,
+          "VOj3zfre": 39,
+          "VsP2ynv6": 1,
+          "WD805Esj": 0,
+          "X5A81guj": 1,
+          "aV0uwLwE": 1,
+          "bFwnYuVx": 4,
+          "bL6sc2vt": 0,
+          "ddo60Xb9": 25,
+          "ewyMKwUQ": 1000,
+          "gKrWSp5L": 0,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hjeFxRp3": 0,
+          "jQTead3o": 1,
+          "kerMIhax": 0,
+          "kpnF2coo": 18,
+          "kvrYgaKv": 15,
+          "mfKDfKsN": 1,
+          "mqVUQBEP": 0,
+          "nJj1wHLS": 45,
+          "oOgX0apx": 0,
+          "rdfKyT1H": 2,
+          "s8zdvXyu": 0,
+          "sqThf2PJ": 0,
+          "uRzl2H2M": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "xesV8rVa": 0,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 15,
+          "zhfm1nvz": 1000
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 31,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 32,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 33,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 34,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 35,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 37,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RankedDifficulty_7_Reroll_StatusEffect",
+          "instance": 39,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RankedDifficulty_9_MaxHP_StatusEffect",
+          "instance": 40,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 41,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Targetting_StatusEffect",
+          "instance": 44,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 75,
+          "source": 17,
+          "stacks": 6,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 99,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 100,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Uncommon_SneakAttack_StatusEffect",
+          "instance": 106,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 110,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Fabled_Set_2_StatusEffect",
+          "instance": 111,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Bane_EnemyDamageResistanceRemoveWhenHit_Manager_StatusEffect",
+          "instance": 118,
+          "source": 152,
+          "stacks": 1,
+          "target": 152
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 119,
+          "source": -1,
+          "stacks": 1,
+          "target": 152
+        },
+        {
+          "effect": "VestigeAll_Uncommon_SneakAttack_DamageCheck_StatusEffect",
+          "instance": 139,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Poison_StatusEffect",
+          "instance": 150,
+          "source": 9,
+          "stacks": 15,
+          "target": 152
+        },
+        {
+          "effect": "C08_ComboBuilder_StatusEffect",
+          "instance": 189,
+          "source": 17,
+          "stacks": 2,
+          "target": 17
+        },
+        {
+          "effect": "Bane_EnemyDamageResistanceRemoveWhenHit_DamageReduction_StatusEffect",
+          "instance": 192,
+          "source": 152,
+          "stacks": 2,
+          "target": 152
+        },
+        {
+          "effect": "Pincushion_Set_3_IncomingDamageIncrease_StatusEffect",
+          "instance": 193,
+          "source": 13,
+          "stacks": 1,
+          "target": 152
+        },
+        {
+          "effect": "C05_Momentum_StatusEffect",
+          "instance": 213,
+          "source": 13,
+          "stacks": 1,
+          "target": 152
+        },
+        {
+          "effect": "RunicStrike_PhysicalTrigger_StatusEffect",
+          "instance": 215,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        }
+      ],
+      "units": {
+        "152": "Figment_Large_ALL_T1_Unit",
+        "17": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "InfusedFist_AbilityData",
+        "action": "InfusedFist_Teleport_ActionData",
+        "amount": 167,
+        "critical": true,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 152,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "1T00:25:12 47"
+    },
+    "expected_components": [
+      {
+        "damage": 100.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 15.0,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 18.0,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 13.3,
+        "name": "Target vulnerability"
+      },
+      {
+        "damage": 73.15,
+        "name": "Critical hit"
+      },
+      {
+        "damage": 0.35,
+        "name": "Rounding"
+      },
+      {
+        "damage": -52.8,
+        "name": "Uncapped damage reduction"
+      }
+    ]
+  },
+  {
+    "action": "Throw_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "Throw_Ability"
+      },
+      "fresh": [
+        9,
+        57
+      ],
+      "full_history": true,
+      "positions": {
+        "57": [
+          70574,
+          218849
+        ],
+        "9": [
+          68936,
+          220904
+        ]
+      },
+      "stats": {
+        "57": {
+          "3TCx0XPg": 0,
+          "713brG5P": 3,
+          "SF1ScOK9": 2,
+          "VOj3zfre": 120,
+          "XUvtRNhO": 1,
+          "frNtAO1z": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        },
+        "9": {
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "FEVzrSd5": 1,
+          "GQJcb8UF": 5,
+          "J6UByQa8": 8,
+          "LJxk6hNN": 2,
+          "PRT1pX5D": 1,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 1,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WKr0YIgd": 1,
+          "X5A81guj": 1,
+          "bFwnYuVx": 4,
+          "bveuveUe": 1,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "jQTead3o": 1,
+          "kvrYgaKv": 39,
+          "l5k8kuUg": 15,
+          "mfKDfKsN": 1,
+          "nJj1wHLS": 50,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "xesV8rVa": 2,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 15,
+          "zhfm1nvz": 1000
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Throw_StatusEffect",
+          "instance": 13,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 14,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 15,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_2_StatusEffect",
+          "instance": 17,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 18,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CanBeNearDeath_AddHelperStatus_StatusEffect",
+          "instance": 22,
+          "source": 57,
+          "stacks": 1,
+          "target": 57
+        },
+        {
+          "effect": "Bombbit_AboutToExplode_Explainer_StatusEffect",
+          "instance": 23,
+          "source": 57,
+          "stacks": 1,
+          "target": 57
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 24,
+          "source": -1,
+          "stacks": 1,
+          "target": 57
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 33,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bleed_StatusEffect",
+          "instance": 34,
+          "source": 9,
+          "stacks": 3,
+          "target": 57
+        }
+      ],
+      "units": {
+        "57": "Bombbit_Small_PRM_T1_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "Throw_Ability",
+        "action": "Throw_Damage_Action",
+        "amount": 87,
+        "critical": true,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 57,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T19:48:25 96"
+    },
+    "expected_components": [
+      {
+        "damage": 50.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 7.5,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 28.75,
+        "name": "Critical hit"
+      },
+      {
+        "damage": 0.75,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "Throw_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "Throw_Ability"
+      },
+      "fresh": [
+        9,
+        537
+      ],
+      "full_history": true,
+      "positions": {
+        "537": [
+          576899,
+          227649
+        ],
+        "9": [
+          557747,
+          227104
+        ]
+      },
+      "stats": {
+        "537": {
+          "3TCx0XPg": 0,
+          "713brG5P": 3,
+          "SF1ScOK9": 4,
+          "VOj3zfre": 250,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 12,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        },
+        "9": {
+          "1dfOu46E": 1,
+          "39B84CUc": 1,
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 8,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "4TYgmonl": 1,
+          "7UdABbWD": 2,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "8uembx4b": 25,
+          "92fJITIs": 2,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "Dvrp4P6W": 3,
+          "FEVzrSd5": 2,
+          "GQJcb8UF": 30,
+          "H8ea7O5C": 1,
+          "I9N87oph": 1,
+          "J6UByQa8": 8,
+          "K3G3pgjn": 40,
+          "LJxk6hNN": 4,
+          "PRT1pX5D": 1,
+          "R2XKNSrO": 2,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 1,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WH3OSgmw": 1,
+          "WKr0YIgd": 1,
+          "WUdvpDOO": 15,
+          "X5A81guj": 1,
+          "bFwnYuVx": 4,
+          "bveuveUe": 3,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 40,
+          "jQTead3o": 1,
+          "jh8cQAWM": 1,
+          "kYkgmOD1": 2,
+          "ko9Rq2m1": 1,
+          "kvrYgaKv": 29,
+          "kz7xv5Wq": 1,
+          "l0WNQEem": 25,
+          "l5k8kuUg": 15,
+          "mfKDfKsN": 4,
+          "nJj1wHLS": 50,
+          "pgtxVjFu": 1,
+          "rdfKyT1H": 3,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 5,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 6,
+          "xesV8rVa": 4,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 20,
+          "zO4KuGPK": 50,
+          "zhfm1nvz": 1000,
+          "znVWEKB1": 1
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Throw_StatusEffect",
+          "instance": 13,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 18,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 52,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 53,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 54,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 55,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 56,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KwillingHoarder_Set_2_StatusEffect",
+          "instance": 58,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 159,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Poison_StatusEffect",
+          "instance": 160,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Bleed_StatusEffect",
+          "instance": 161,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Fabled_Set_4_StatusEffect",
+          "instance": 200,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+          "instance": 201,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_ErmongsEgg_StatusEffect",
+          "instance": 205,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 474,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 475,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Poison_StatusEffect",
+          "instance": 476,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Epic_Shield_StatusEffect",
+          "instance": 477,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 479,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPPerCombat_StatusEffect",
+          "instance": 480,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 481,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_3_StatusEffect",
+          "instance": 483,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatusEffect",
+          "instance": 484,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 485,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bane_PlayerSlowUntilKill_SlowEffect_StatusEffect",
+          "instance": 487,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_SmiteAll_StatusEffect",
+          "instance": 555,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_StatusEffect",
+          "instance": 557,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Epic_BleedDamage_StatusEffect",
+          "instance": 558,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeCDFirst_StatusEffect",
+          "instance": 559,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 560,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Striker_Set_4_StatusEffect",
+          "instance": 562,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 563,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPPerCombat_Hidden_StatusEffect",
+          "instance": 608,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 611,
+          "source": 9,
+          "stacks": 83,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "instance": 621,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_ShurikenSelf_Gate_StatusEffect",
+          "instance": 622,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 636,
+          "source": 9,
+          "stacks": 5,
+          "target": 9
+        },
+        {
+          "effect": "ChallengeBuffGroup_GunkDropper_StatusEffect",
+          "instance": 661,
+          "source": 537,
+          "stacks": 1,
+          "target": 537
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 662,
+          "source": 537,
+          "stacks": 1,
+          "target": 537
+        },
+        {
+          "effect": "Tier2Tracker_StatusEffect",
+          "instance": 663,
+          "source": -1,
+          "stacks": 1,
+          "target": 537
+        },
+        {
+          "effect": "Poison_StatusEffect",
+          "instance": 715,
+          "source": 9,
+          "stacks": 35,
+          "target": 537
+        },
+        {
+          "effect": "Bleed_StatusEffect",
+          "instance": 731,
+          "source": 9,
+          "stacks": 9,
+          "target": 537
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_Magical_StatusEffect",
+          "instance": 734,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        }
+      ],
+      "units": {
+        "537": "Inkstain_Small_ALL_T2_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "Throw_Ability",
+        "action": "Throw_Damage_Action",
+        "amount": 94,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 537,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T20:31:54 66"
+    },
+    "expected_components": [
+      {
+        "damage": 50.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 25.0,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 18.75,
+        "name": "Damage to Bleeding enemies"
+      },
+      {
+        "damage": 0.25,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "ThrowUpgrade_Legendary_PoisonShot_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "ThrowUpgrade_Legendary_PoisonShot_Ability"
+      },
+      "fresh": [
+        640,
+        9
+      ],
+      "full_history": true,
+      "positions": {
+        "640": [
+          938742,
+          371398
+        ],
+        "9": [
+          940220,
+          373077
+        ]
+      },
+      "stats": {
+        "640": {
+          "3TCx0XPg": 0,
+          "713brG5P": 10,
+          "FtBty9sm": 100,
+          "SF1ScOK9": 2,
+          "VOj3zfre": 500,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 15,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        },
+        "9": {
+          "1dfOu46E": 0,
+          "39B84CUc": 1,
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 8,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "4TYgmonl": 1,
+          "4ThwfJlB": 1,
+          "7UdABbWD": 2,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 0,
+          "8uembx4b": 25,
+          "92fJITIs": 2,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "Dvrp4P6W": 3,
+          "FEVzrSd5": 2,
+          "GQJcb8UF": 30,
+          "H8ea7O5C": 1,
+          "I9N87oph": 1,
+          "J6UByQa8": 8,
+          "K3G3pgjn": 40,
+          "LJxk6hNN": 4,
+          "OlX8E0Bg": 1,
+          "PRT1pX5D": 1,
+          "R2XKNSrO": 2,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 1,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WH3OSgmw": 0,
+          "WKr0YIgd": 1,
+          "WUdvpDOO": 23,
+          "X5A81guj": 1,
+          "bFwnYuVx": 5,
+          "bveuveUe": 4,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 40,
+          "jQTead3o": 1,
+          "jh8cQAWM": 1,
+          "kYkgmOD1": 2,
+          "ko9Rq2m1": 1,
+          "kvrYgaKv": 19,
+          "kz7xv5Wq": 1,
+          "l0WNQEem": 25,
+          "l5k8kuUg": 20,
+          "mfKDfKsN": 4,
+          "nJj1wHLS": 50,
+          "pgtxVjFu": 2,
+          "rdfKyT1H": 3,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 5,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 7,
+          "xesV8rVa": 4,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 20,
+          "zO4KuGPK": 50,
+          "zhfm1nvz": 1000,
+          "znVWEKB1": 1
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 52,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 53,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 54,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 55,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 56,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KwillingHoarder_Set_2_StatusEffect",
+          "instance": 58,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 159,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Bleed_StatusEffect",
+          "instance": 161,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Fabled_Set_4_StatusEffect",
+          "instance": 200,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+          "instance": 201,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 474,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 475,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Poison_StatusEffect",
+          "instance": 476,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Epic_Shield_StatusEffect",
+          "instance": 477,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 479,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPPerCombat_StatusEffect",
+          "instance": 480,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 481,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_3_StatusEffect",
+          "instance": 483,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatusEffect",
+          "instance": 484,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 485,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bane_PlayerSlowUntilKill_SlowEffect_StatusEffect",
+          "instance": 487,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_SmiteAll_StatusEffect",
+          "instance": 555,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_StatusEffect",
+          "instance": 557,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Epic_BleedDamage_StatusEffect",
+          "instance": 558,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeCDFirst_StatusEffect",
+          "instance": 559,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 560,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Striker_Set_4_StatusEffect",
+          "instance": 562,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_Counter_StatusEffect",
+          "instance": 781,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Legendary_PoisonShot_Poison_StatusEffect",
+          "instance": 782,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 783,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Poison_StatusEffect",
+          "instance": 784,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 785,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeManaFirst_StatusEffect",
+          "instance": 786,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 787,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 789,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ChannelerResist_DamageResist_Base_StatusEffect",
+          "instance": 796,
+          "source": 640,
+          "stacks": 1,
+          "target": 640
+        },
+        {
+          "effect": "Tier2Tracker_StatusEffect",
+          "instance": 797,
+          "source": -1,
+          "stacks": 1,
+          "target": 640
+        },
+        {
+          "effect": "ChannelerResist_DamageResist_Channel_Helper_StatusEffect",
+          "instance": 817,
+          "source": 640,
+          "stacks": 1,
+          "target": 640
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPPerCombat_Hidden_StatusEffect",
+          "instance": 822,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 823,
+          "source": 9,
+          "stacks": 4,
+          "target": 9
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 827,
+          "source": 9,
+          "stacks": 41,
+          "target": 9
+        },
+        {
+          "effect": "Bleed_StatusEffect",
+          "instance": 829,
+          "source": 9,
+          "stacks": 8,
+          "target": 640
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_Magical_StatusEffect",
+          "instance": 831,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_ShurikenSelf_Gate_StatusEffect",
+          "instance": 833,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Poison_StatusEffect",
+          "instance": 835,
+          "source": 9,
+          "stacks": 26,
+          "target": 640
+        },
+        {
+          "effect": "Toxic_StatusEffect",
+          "instance": 838,
+          "source": 9,
+          "stacks": 1,
+          "target": 640
+        },
+        {
+          "effect": "Marked_StatusEffect",
+          "instance": 844,
+          "source": 9,
+          "stacks": 1,
+          "target": 640
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "instance": 846,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_ManaCounter_StatusEffect",
+          "instance": 847,
+          "source": 9,
+          "stacks": 3,
+          "target": 9
+        }
+      ],
+      "units": {
+        "640": "ChannelerResist_Medium_PRV_T2_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "ThrowUpgrade_Legendary_PoisonShot_Ability",
+        "action": "ThrowUpgrade_Legendary_PoisonShot_Damage_Action",
+        "amount": 158,
+        "critical": true,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 640,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T20:35:25 04"
+    },
+    "expected_components": [
+      {
+        "damage": 30.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 12.0,
+        "name": "Magic damage"
+      },
+      {
+        "damage": 10.5,
+        "name": "Damage to Bleeding enemies"
+      },
+      {
+        "damage": 52.5,
+        "name": "Target vulnerability"
+      },
+      {
+        "damage": 52.5,
+        "name": "Critical hit"
+      },
+      {
+        "damage": 0.5,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "ThrowUpgrade_Legendary_PoisonShot_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "ThrowUpgrade_Legendary_PoisonShot_Ability"
+      },
+      "fresh": [
+        992,
+        9
+      ],
+      "full_history": true,
+      "positions": {
+        "9": [
+          655288,
+          145959
+        ],
+        "992": [
+          635780,
+          124867
+        ]
+      },
+      "stats": {
+        "9": {
+          "0TB7R6s2": 2,
+          "1dfOu46E": 0,
+          "39B84CUc": 3,
+          "3FXVvW6T": 50,
+          "3PYLo1dm": 2,
+          "3TCx0XPg": 8,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 1,
+          "3wx0GG8L": 2,
+          "4BO07rvl": 2,
+          "4TYgmonl": 0,
+          "4ThwfJlB": 2,
+          "7UdABbWD": 1,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 0,
+          "8uembx4b": 50,
+          "92fJITIs": 4,
+          "9QpTgVjt": 0,
+          "9Yr2SOs2": 1,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "BrJdtjr0": 2,
+          "CA4mpNph": 1,
+          "Dvrp4P6W": 4,
+          "FEVzrSd5": 2,
+          "FUr05zNM": 2,
+          "FlJetJbF": 2,
+          "GQJcb8UF": 30,
+          "H8ea7O5C": 0,
+          "I9N87oph": 0,
+          "J6UByQa8": 8,
+          "JL450UY2": 2,
+          "K3G3pgjn": 35,
+          "KcyRBp1N": 2,
+          "Ky41FymB": 2,
+          "LJxk6hNN": 4,
+          "MOb7HdNv": 2,
+          "Mrz1QYHp": 2,
+          "OlX8E0Bg": 2,
+          "PRT1pX5D": 2,
+          "R2XKNSrO": 2,
+          "S6n8nHlc": 1,
+          "TWM45OpA": 0,
+          "UNAXUkel": 2,
+          "VOj3zfre": 56,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WH3OSgmw": 0,
+          "WKr0YIgd": 1,
+          "WUdvpDOO": 5,
+          "X5A81guj": 1,
+          "bFwnYuVx": 7,
+          "bveuveUe": 3,
+          "cV678Qap": 2,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 40,
+          "hRIV5fDt": 2,
+          "jQTead3o": 1,
+          "jh8cQAWM": 3,
+          "kYkgmOD1": 3,
+          "ko9Rq2m1": 1,
+          "kpnF2coo": 430,
+          "kvrYgaKv": 31,
+          "kz7xv5Wq": 2,
+          "l0WNQEem": 25,
+          "l5k8kuUg": 20,
+          "mfKDfKsN": 5,
+          "nJj1wHLS": 50,
+          "nPTSp3zA": 2,
+          "oMTo2pWu": 2,
+          "pgtxVjFu": 2,
+          "q0GtlFwk": 2,
+          "r0J9FA0N": 2,
+          "rdfKyT1H": 6,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 5,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 6,
+          "xesV8rVa": 5,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 20,
+          "zO4KuGPK": 50,
+          "zhfm1nvz": 1000,
+          "znVWEKB1": 2
+        },
+        "992": {
+          "0QnywPkl": 0,
+          "713brG5P": 1000,
+          "IkvTI2Oq": 1,
+          "SF1ScOK9": 17,
+          "VOj3zfre": 40000,
+          "XUvtRNhO": 5,
+          "e9vCI1hn": 0,
+          "h9srdbWs": 50,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pq6hlsOe": -30,
+          "v1BI5AAy": 1
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 159,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Bleed_StatusEffect",
+          "instance": 161,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 474,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 475,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Poison_StatusEffect",
+          "instance": 476,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Epic_Shield_StatusEffect",
+          "instance": 477,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 479,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 481,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_3_StatusEffect",
+          "instance": 483,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatusEffect",
+          "instance": 484,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 485,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bane_PlayerSlowUntilKill_SlowEffect_StatusEffect",
+          "instance": 487,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeCDFirst_StatusEffect",
+          "instance": 559,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 560,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Legendary_PoisonShot_Poison_StatusEffect",
+          "instance": 782,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 783,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Poison_StatusEffect",
+          "instance": 784,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 785,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeManaFirst_StatusEffect",
+          "instance": 786,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 787,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 789,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Inventions_Set_2_StatusEffect",
+          "instance": 945,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 946,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 947,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Contaminated_Set_2_StatusEffect",
+          "instance": 948,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Verdant_Set_3_StatusEffect",
+          "instance": 949,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Rare_FreeFirst_StatusEffect",
+          "instance": 950,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Poison_StatusEffect",
+          "instance": 951,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KwillingHoarder_Set_3_StatusEffect",
+          "instance": 952,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_MisersPurse_StatusEffect",
+          "instance": 953,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 1175,
+          "source": 9,
+          "stacks": 6,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Legendary_Hemorrhage_StatusEffect",
+          "instance": 1176,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 1177,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 1178,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 1179,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 1180,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 1181,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Epic_BleedDamage_StatusEffect",
+          "instance": 1182,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Rare_Bleed5_StatusEffect",
+          "instance": 1183,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Epic_Dodge_StatusEffect",
+          "instance": 1184,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Epic_Mana_StatusEffect",
+          "instance": 1337,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 1338,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Fabled_Set_6_StatusEffect",
+          "instance": 1339,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Vigorous_Set_2_StatusEffect",
+          "instance": 1340,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Shadow_Set_2_StatusEffect",
+          "instance": 1341,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_Bloodletter_StatusEffect",
+          "instance": 1342,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 1344,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Enchanted_Set_3_StatusEffect",
+          "instance": 1346,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Striker_Set_4_StatusEffect",
+          "instance": 1347,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Ancient_Set_4_StatusEffect",
+          "instance": 1348,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_MisersPurse_StatusEffect",
+          "instance": 1349,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "IsVillain_StatusEffect",
+          "instance": 1351,
+          "source": 992,
+          "stacks": 1,
+          "target": 992
+        },
+        {
+          "effect": "Bane_EnemyBossRemoveEffectsHalfHealth_StatusEffect",
+          "instance": 1352,
+          "source": 992,
+          "stacks": 1,
+          "target": 992
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1353,
+          "source": -1,
+          "stacks": 1,
+          "target": 992
+        },
+        {
+          "effect": "AbilityPowerBuff_Combat_StatusEffect",
+          "instance": 1378,
+          "source": 9,
+          "stacks": 350,
+          "target": 9
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 1381,
+          "source": 9,
+          "stacks": 5,
+          "target": 9
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1390,
+          "source": 9,
+          "stacks": 35,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "instance": 1398,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_ShurikenSelf_Gate_StatusEffect",
+          "instance": 1466,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ShadowOfRuhnstone_HeadP3_StatusEffect",
+          "instance": 1485,
+          "source": 992,
+          "stacks": 1,
+          "target": 992
+        },
+        {
+          "effect": "Vigorous_Set_4_VigorGrantedTracker_StatusEffect",
+          "instance": 1496,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bleed_StatusEffect",
+          "instance": 1498,
+          "source": 9,
+          "stacks": 30,
+          "target": 992
+        },
+        {
+          "effect": "Poison_StatusEffect",
+          "instance": 1499,
+          "source": 9,
+          "stacks": 255,
+          "target": 992
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_ManaCounter_StatusEffect",
+          "instance": 1516,
+          "source": 9,
+          "stacks": 76,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_Bloodletter_DamageBoost_StatusEffect",
+          "instance": 1517,
+          "source": 9,
+          "stacks": 5,
+          "target": 9
+        }
+      ],
+      "units": {
+        "9": "BasePlayerData",
+        "992": "ShadowOfRuhnstone_Head_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "ThrowUpgrade_Legendary_PoisonShot_Ability",
+        "action": "ThrowUpgrade_Legendary_PoisonShot_Damage_Action",
+        "amount": 212,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 992,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T20:59:58 77"
+    },
+    "expected_components": [
+      {
+        "damage": 30.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 10.5,
+        "name": "Magic damage"
+      },
+      {
+        "damage": 129.0,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 42.37,
+        "name": "Damage to Bleeding enemies"
+      },
+      {
+        "damage": 0.13,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "Cleave_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "Cleave_AbilityData"
+      },
+      "fresh": [
+        9,
+        111
+      ],
+      "full_history": true,
+      "positions": {
+        "111": [
+          257147,
+          447734
+        ],
+        "9": [
+          249439,
+          450122
+        ]
+      },
+      "stats": {
+        "111": {
+          "3TCx0XPg": 0,
+          "713brG5P": 5,
+          "FtBty9sm": 0,
+          "SF1ScOK9": 4,
+          "VOj3zfre": 1000,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        },
+        "9": {
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 0,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "80BENuzN": 50,
+          "8aMbsOtz": 0,
+          "8uembx4b": 25,
+          "92fJITIs": 2,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "FEVzrSd5": 1,
+          "GQJcb8UF": 5,
+          "J6UByQa8": 8,
+          "LJxk6hNN": 3,
+          "PRT1pX5D": 1,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 1,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WKr0YIgd": 1,
+          "X5A81guj": 1,
+          "bFwnYuVx": 4,
+          "bveuveUe": 1,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 55,
+          "jQTead3o": 1,
+          "ko9Rq2m1": 1,
+          "kvrYgaKv": 55,
+          "kz7xv5Wq": 1,
+          "l5k8kuUg": 15,
+          "mfKDfKsN": 2,
+          "nJj1wHLS": 50,
+          "rdfKyT1H": 2,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "xesV8rVa": 2,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 65,
+          "zhfm1nvz": 1000
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Throw_StatusEffect",
+          "instance": 13,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 14,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 15,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_2_StatusEffect",
+          "instance": 17,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 18,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Striker_Set_2_StatusEffect",
+          "instance": 50,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 52,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 53,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 54,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 55,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 56,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KwillingHoarder_Set_2_StatusEffect",
+          "instance": 58,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Fabled_Set_2_StatusEffect",
+          "instance": 59,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ChallengeBuff_BombEachTurn_StatusEffect",
+          "instance": 81,
+          "source": 111,
+          "stacks": 1,
+          "target": 111
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 82,
+          "source": 111,
+          "stacks": 1,
+          "target": 111
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 83,
+          "source": -1,
+          "stacks": 1,
+          "target": 111
+        },
+        {
+          "effect": "HuntersDash_ShurikenSelf_Gate_StatusEffect",
+          "instance": 116,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 128,
+          "source": 9,
+          "stacks": 5,
+          "target": 9
+        }
+      ],
+      "units": {
+        "111": "Figment_Large_ALL_T1_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "Cleave_AbilityData",
+        "action": "Cleave_Damage_Action",
+        "amount": 330,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 111,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T19:52:38 52"
+    },
+    "expected_components": [
+      {
+        "damage": 200.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 130.0,
+        "name": "Physical damage"
+      }
+    ]
+  },
+  {
+    "action": "Cleave_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "Cleave_AbilityData"
+      },
+      "fresh": [
+        9,
+        113
+      ],
+      "full_history": true,
+      "positions": {
+        "113": [
+          427704,
+          265298
+        ],
+        "9": [
+          432854,
+          269645
+        ]
+      },
+      "stats": {
+        "113": {
+          "3TCx0XPg": 0,
+          "713brG5P": 5,
+          "MbaQWCJl": 0,
+          "SF1ScOK9": 4,
+          "VOj3zfre": 1000,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pvw9uUnH": 50
+        },
+        "9": {
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 10,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "80BENuzN": 50,
+          "8aMbsOtz": 1,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "GQJcb8UF": 5,
+          "J6UByQa8": 8,
+          "LJxk6hNN": 3,
+          "OBbq2Wzr": 0,
+          "PRT1pX5D": 2,
+          "S6n8nHlc": 1,
+          "VOj3zfre": 1,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "X5A81guj": 1,
+          "YPKVSX4T": 1,
+          "aV0uwLwE": 2,
+          "bFwnYuVx": 4,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "jQTead3o": 1,
+          "jh8cQAWM": 2,
+          "ko9Rq2m1": 1,
+          "kvrYgaKv": 35,
+          "kz7xv5Wq": 1,
+          "mfKDfKsN": 1,
+          "nJj1wHLS": 50,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vgYa6ah8": 1,
+          "xesV8rVa": 2,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 15,
+          "zhfm1nvz": 1000
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C09_Empyrean_Passive_StatusEffect",
+          "instance": 0,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 5,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_2_StatusEffect",
+          "instance": 6,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Potion_Common_Shield_StatusEffect",
+          "instance": 7,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ImpaleUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Common_RandomShatter_StatusEffect",
+          "instance": 49,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 51,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 52,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 53,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 54,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 55,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 56,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Warden_Set_2_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ChallengeBuff_BombEachTurn_StatusEffect",
+          "instance": 66,
+          "source": 113,
+          "stacks": 1,
+          "target": 113
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 67,
+          "source": 113,
+          "stacks": 1,
+          "target": 113
+        },
+        {
+          "effect": "Bane_EnemyDamageOverTime_StatusEffect",
+          "instance": 68,
+          "source": 113,
+          "stacks": 1,
+          "target": 113
+        },
+        {
+          "effect": "Tier1Tracker_StatusEffect",
+          "instance": 69,
+          "source": -1,
+          "stacks": 1,
+          "target": 113
+        },
+        {
+          "effect": "Bane_EnemyDamageOverTime_Manager_StatusEffect",
+          "instance": 80,
+          "source": 113,
+          "stacks": 1,
+          "target": 113
+        },
+        {
+          "effect": "Global_EnemyAttackUp_25_Permanent_StatusEffect",
+          "instance": 102,
+          "source": 113,
+          "stacks": 2,
+          "target": 113
+        },
+        {
+          "effect": "Bleed_StatusEffect",
+          "instance": 119,
+          "source": 9,
+          "stacks": 5,
+          "target": 113
+        }
+      ],
+      "units": {
+        "113": "Figment_Large_ALL_T1_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "Cleave_AbilityData",
+        "action": "Cleave_Damage_Action",
+        "amount": 230,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 113,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "1T00:01:15 11"
+    },
+    "expected_components": [
+      {
+        "damage": 200.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 30.0,
+        "name": "Physical damage"
+      }
+    ]
+  },
+  {
+    "action": "CleaveUpgrade_Legendary_Hemorrhage_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "CleaveUpgrade_Legendary_Hemorrhage_AbilityData"
+      },
+      "fresh": [
+        872,
+        9
+      ],
+      "full_history": true,
+      "positions": {
+        "872": [
+          209142,
+          70492
+        ],
+        "9": [
+          219437,
+          79318
+        ]
+      },
+      "stats": {
+        "872": {
+          "3TCx0XPg": 0,
+          "713brG5P": 8,
+          "SF1ScOK9": 6,
+          "VOj3zfre": 2500,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0
+        },
+        "9": {
+          "1dfOu46E": 0,
+          "39B84CUc": 1,
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 8,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "4TYgmonl": 1,
+          "4ThwfJlB": 2,
+          "7UdABbWD": 1,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 0,
+          "8uembx4b": 40,
+          "92fJITIs": 3,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "Dvrp4P6W": 3,
+          "FEVzrSd5": 2,
+          "GQJcb8UF": 30,
+          "H8ea7O5C": 1,
+          "I9N87oph": 1,
+          "J6UByQa8": 8,
+          "K3G3pgjn": 0,
+          "LJxk6hNN": 4,
+          "OlX8E0Bg": 2,
+          "PRT1pX5D": 1,
+          "R2XKNSrO": 2,
+          "S6n8nHlc": 1,
+          "TWM45OpA": 0,
+          "VOj3zfre": 53,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WH3OSgmw": 0,
+          "WKr0YIgd": 1,
+          "WUdvpDOO": 5,
+          "X5A81guj": 1,
+          "bFwnYuVx": 6,
+          "bveuveUe": 3,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 40,
+          "jQTead3o": 1,
+          "jh8cQAWM": 1,
+          "kYkgmOD1": 3,
+          "ko9Rq2m1": 1,
+          "kpnF2coo": 100,
+          "kvrYgaKv": 28,
+          "kz7xv5Wq": 2,
+          "l0WNQEem": 25,
+          "l5k8kuUg": 20,
+          "mfKDfKsN": 4,
+          "nJj1wHLS": 50,
+          "pgtxVjFu": 2,
+          "rdfKyT1H": 4,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 5,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 7,
+          "xesV8rVa": 4,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 20,
+          "zO4KuGPK": 70,
+          "zhfm1nvz": 1000,
+          "znVWEKB1": 2
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 159,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Bleed_StatusEffect",
+          "instance": 161,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Fabled_Set_4_StatusEffect",
+          "instance": 200,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+          "instance": 201,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 474,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 475,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Poison_StatusEffect",
+          "instance": 476,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Epic_Shield_StatusEffect",
+          "instance": 477,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 479,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 481,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_3_StatusEffect",
+          "instance": 483,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatusEffect",
+          "instance": 484,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 485,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bane_PlayerSlowUntilKill_SlowEffect_StatusEffect",
+          "instance": 487,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_SmiteAll_StatusEffect",
+          "instance": 555,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_StatusEffect",
+          "instance": 557,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeCDFirst_StatusEffect",
+          "instance": 559,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 560,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Striker_Set_4_StatusEffect",
+          "instance": 562,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Legendary_PoisonShot_Poison_StatusEffect",
+          "instance": 782,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 783,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Poison_StatusEffect",
+          "instance": 784,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 785,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeManaFirst_StatusEffect",
+          "instance": 786,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 787,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 789,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Inventions_Set_2_StatusEffect",
+          "instance": 945,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 946,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 947,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Contaminated_Set_2_StatusEffect",
+          "instance": 948,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Verdant_Set_3_StatusEffect",
+          "instance": 949,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Rare_FreeFirst_StatusEffect",
+          "instance": 950,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Poison_StatusEffect",
+          "instance": 951,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KwillingHoarder_Set_3_StatusEffect",
+          "instance": 952,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_MisersPurse_StatusEffect",
+          "instance": 953,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_Counter_StatusEffect",
+          "instance": 1174,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 1175,
+          "source": 9,
+          "stacks": 3,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Legendary_Hemorrhage_StatusEffect",
+          "instance": 1176,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 1177,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 1178,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 1179,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 1180,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 1181,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Epic_BleedDamage_StatusEffect",
+          "instance": 1182,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Rare_Bleed5_StatusEffect",
+          "instance": 1183,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Epic_Dodge_StatusEffect",
+          "instance": 1184,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1198,
+          "source": -1,
+          "stacks": 1,
+          "target": 872
+        },
+        {
+          "effect": "AbilityPowerBuff_Combat_StatusEffect",
+          "instance": 1199,
+          "source": 9,
+          "stacks": 100,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_ShurikenSelf_Gate_StatusEffect",
+          "instance": 1209,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "instance": 1227,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Barrier_StatusEffect",
+          "instance": 1248,
+          "source": 9,
+          "stacks": 8,
+          "target": 9
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1250,
+          "source": 9,
+          "stacks": 48,
+          "target": 9
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 1262,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bleed_StatusEffect",
+          "instance": 1269,
+          "source": 9,
+          "stacks": 3,
+          "target": 872
+        },
+        {
+          "effect": "Poison_StatusEffect",
+          "instance": 1270,
+          "source": 9,
+          "stacks": 21,
+          "target": 872
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_Physical_StatusEffect",
+          "instance": 1271,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_ManaCounter_StatusEffect",
+          "instance": 1272,
+          "source": 9,
+          "stacks": 10,
+          "target": 9
+        }
+      ],
+      "units": {
+        "872": "BarbedBanshee_Medium_VIL_T3_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "CleaveUpgrade_Legendary_Hemorrhage_AbilityData",
+        "action": "CleaveUpgrade_Legendary_Hemorrhage_Damage_Action",
+        "amount": 844,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 872,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T20:50:50 87"
+    },
+    "expected_components": [
+      {
+        "damage": 250.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 175.0,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 250.0,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 168.75,
+        "name": "Damage to Bleeding enemies"
+      },
+      {
+        "damage": 0.25,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "CleaveUpgrade_Legendary_Hemorrhage_Damage_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "9": "CleaveUpgrade_Legendary_Hemorrhage_AbilityData"
+      },
+      "fresh": [
+        9,
+        871
+      ],
+      "full_history": true,
+      "positions": {
+        "871": [
+          234496,
+          70171
+        ],
+        "9": [
+          219437,
+          79318
+        ]
+      },
+      "stats": {
+        "871": {
+          "3TCx0XPg": 0,
+          "713brG5P": 20,
+          "FtBty9sm": 50,
+          "SF1ScOK9": 9,
+          "VOj3zfre": 4000,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 6,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pvw9uUnH": 50
+        },
+        "9": {
+          "1dfOu46E": 0,
+          "39B84CUc": 1,
+          "3FXVvW6T": 50,
+          "3TCx0XPg": 8,
+          "3jxlDT8Q": 1,
+          "3lmEpKrf": 10,
+          "4TYgmonl": 1,
+          "4ThwfJlB": 2,
+          "7UdABbWD": 1,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 0,
+          "8uembx4b": 40,
+          "92fJITIs": 3,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "CA4mpNph": 1,
+          "Dvrp4P6W": 3,
+          "FEVzrSd5": 2,
+          "GQJcb8UF": 30,
+          "H8ea7O5C": 1,
+          "I9N87oph": 1,
+          "J6UByQa8": 8,
+          "K3G3pgjn": 0,
+          "LJxk6hNN": 4,
+          "OlX8E0Bg": 2,
+          "PRT1pX5D": 1,
+          "R2XKNSrO": 2,
+          "S6n8nHlc": 1,
+          "TWM45OpA": 0,
+          "VOj3zfre": 53,
+          "VsP2ynv6": 1,
+          "WD805Esj": 2,
+          "WH3OSgmw": 0,
+          "WKr0YIgd": 1,
+          "WUdvpDOO": 5,
+          "X5A81guj": 1,
+          "bFwnYuVx": 6,
+          "bveuveUe": 3,
+          "ewyMKwUQ": 1000,
+          "ggntvzpF": 1,
+          "h9srdbWs": 40,
+          "jQTead3o": 1,
+          "jh8cQAWM": 1,
+          "kYkgmOD1": 3,
+          "ko9Rq2m1": 1,
+          "kpnF2coo": 100,
+          "kvrYgaKv": 28,
+          "kz7xv5Wq": 2,
+          "l0WNQEem": 25,
+          "l5k8kuUg": 20,
+          "mfKDfKsN": 4,
+          "nJj1wHLS": 50,
+          "pgtxVjFu": 2,
+          "rdfKyT1H": 4,
+          "sqThf2PJ": 0,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 5,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 7,
+          "xesV8rVa": 4,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 20,
+          "zO4KuGPK": 70,
+          "zhfm1nvz": 1000,
+          "znVWEKB1": 2
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C02_Shuriken_StatusEffect",
+          "instance": 8,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 9,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 10,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 11,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 12,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Trinket_Bleed_StatusEffect",
+          "instance": 16,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 57,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 159,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Bleed_StatusEffect",
+          "instance": 161,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Fabled_Set_4_StatusEffect",
+          "instance": 200,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+          "instance": 201,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_StatusEffect",
+          "instance": 474,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_HaveMovementAbility_StatusEffect",
+          "instance": 475,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Poison_StatusEffect",
+          "instance": 476,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Epic_Shield_StatusEffect",
+          "instance": 477,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 479,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 481,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Sanguine_Set_3_StatusEffect",
+          "instance": 483,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatusEffect",
+          "instance": 484,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 485,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Bane_PlayerSlowUntilKill_SlowEffect_StatusEffect",
+          "instance": 487,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_SmiteAll_StatusEffect",
+          "instance": 555,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_StatusEffect",
+          "instance": 557,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeCDFirst_StatusEffect",
+          "instance": 559,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 560,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Striker_Set_4_StatusEffect",
+          "instance": 562,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Legendary_PoisonShot_Poison_StatusEffect",
+          "instance": 782,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Bleed_StatusEffect",
+          "instance": 783,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ThrowUpgrade_Uncommon_Poison_StatusEffect",
+          "instance": 784,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 785,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Rare_FreeManaFirst_StatusEffect",
+          "instance": 786,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 787,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 789,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Inventions_Set_2_StatusEffect",
+          "instance": 945,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_StatusEffect",
+          "instance": 946,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 947,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Contaminated_Set_2_StatusEffect",
+          "instance": 948,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Verdant_Set_3_StatusEffect",
+          "instance": 949,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Discharge_Rare_FreeFirst_StatusEffect",
+          "instance": 950,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FlurryUpgrade_Rare_Poison_StatusEffect",
+          "instance": 951,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "KwillingHoarder_Set_3_StatusEffect",
+          "instance": 952,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Epic_MisersPurse_StatusEffect",
+          "instance": 953,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Mythos_Set_Counter_StatusEffect",
+          "instance": 1174,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 1175,
+          "source": 9,
+          "stacks": 3,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Legendary_Hemorrhage_StatusEffect",
+          "instance": 1176,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_BigAttacks_StatusEffect",
+          "instance": 1177,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Bleed_StatusEffect",
+          "instance": 1178,
+          "source": 9,
+          "stacks": 2,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantCDR_StatusEffect",
+          "instance": 1179,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_WantWill_StatusEffect",
+          "instance": 1180,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "FindMult_Physical_StatusEffect",
+          "instance": 1181,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Epic_BleedDamage_StatusEffect",
+          "instance": 1182,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "CleaveUpgrade_Rare_Bleed5_StatusEffect",
+          "instance": 1183,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDashUpgrade_Epic_Dodge_StatusEffect",
+          "instance": 1184,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "ChallengeBuff_GlassCannon_Base_StatusEffect",
+          "instance": 1195,
+          "source": 871,
+          "stacks": 1,
+          "target": 871
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 1196,
+          "source": 871,
+          "stacks": 1,
+          "target": 871
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1197,
+          "source": -1,
+          "stacks": 1,
+          "target": 871
+        },
+        {
+          "effect": "AbilityPowerBuff_Combat_StatusEffect",
+          "instance": 1199,
+          "source": 9,
+          "stacks": 100,
+          "target": 9
+        },
+        {
+          "effect": "HuntersDash_ShurikenSelf_Gate_StatusEffect",
+          "instance": 1209,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "instance": 1227,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "Barrier_StatusEffect",
+          "instance": 1248,
+          "source": 9,
+          "stacks": 8,
+          "target": 9
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1250,
+          "source": 9,
+          "stacks": 48,
+          "target": 9
+        },
+        {
+          "effect": "Poison_StatusEffect",
+          "instance": 1257,
+          "source": 9,
+          "stacks": 61,
+          "target": 871
+        },
+        {
+          "effect": "C02_Shuriken_Counter_StatusEffect",
+          "instance": 1262,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Rare_MagicAndPhysical_Physical_StatusEffect",
+          "instance": 1271,
+          "source": 9,
+          "stacks": 1,
+          "target": 9
+        },
+        {
+          "effect": "VestigeAll_Legendary_ConserveWill_ManaCounter_StatusEffect",
+          "instance": 1272,
+          "source": 9,
+          "stacks": 10,
+          "target": 9
+        }
+      ],
+      "units": {
+        "871": "TuhningGuardian_Large_VIL_T3_Unit",
+        "9": "BasePlayerData"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "CleaveUpgrade_Legendary_Hemorrhage_AbilityData",
+        "action": "CleaveUpgrade_Legendary_Hemorrhage_Damage_Action",
+        "amount": 1013,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 9,
+        "target": 871,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T20:50:50 87"
+    },
+    "expected_components": [
+      {
+        "damage": 250.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 175.0,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 250.0,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 337.5,
+        "name": "Target vulnerability"
+      },
+      {
+        "damage": 0.5,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_PD_Distance_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData"
+      },
+      "fresh": [
+        17,
+        709
+      ],
+      "full_history": true,
+      "positions": {
+        "17": [
+          230282,
+          78819
+        ],
+        "709": [
+          233226,
+          64021
+        ]
+      },
+      "stats": {
+        "17": {
+          "0QrjYnv0": 0,
+          "19n1lQEq": 0,
+          "1dfOu46E": 1,
+          "1eaM7rNc": 0,
+          "39B84CUc": 4,
+          "3FXVvW6T": 80,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 0,
+          "3q6veo6B": 2,
+          "3tlEcxSf": 0,
+          "5xqtVYwj": 0,
+          "6Tc8lkP4": 1,
+          "7UdABbWD": 2,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 6,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "Aq4R5Hl7": 0,
+          "BkEX2Osj": 2,
+          "CA4mpNph": 1,
+          "Dp4MeXPR": 0,
+          "Dvrp4P6W": 4,
+          "DxY3kHVl": 0,
+          "EevgwYu5": 0,
+          "FUr05zNM": 2,
+          "FtBty9sm": 100,
+          "GQJcb8UF": 0,
+          "IU9887oS": 0,
+          "J6UByQa8": 23,
+          "JkdE6FIF": 120,
+          "K3G3pgjn": 50,
+          "L0SCtKk4": 0,
+          "LJxk6hNN": 3,
+          "NxVGBPfl": 0,
+          "OQ28xEWt": 0,
+          "PHrOB2gl": 0,
+          "PRT1pX5D": 1,
+          "R2XKNSrO": 0,
+          "Rt7YTCzq": 0,
+          "S6n8nHlc": 1,
+          "S9V73F7x": 30,
+          "TnfhYmFe": 0,
+          "U0K4mqkv": 200,
+          "UtFcUMPs": 0,
+          "V8hQhpmQ": 0,
+          "VOj3zfre": 30,
+          "VsP2ynv6": 1,
+          "WH3OSgmw": 1,
+          "WUdvpDOO": 0,
+          "X5A81guj": 1,
+          "X6nYGESe": 80,
+          "XEcctIJx": 25,
+          "YPKVSX4T": 1,
+          "bFwnYuVx": 5,
+          "bL6sc2vt": 0,
+          "ewyMKwUQ": 1000,
+          "gKrWSp5L": 0,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hjeFxRp3": 0,
+          "hqrnJm1B": 4,
+          "jQTead3o": 1,
+          "jh8cQAWM": 6,
+          "kYkgmOD1": 8,
+          "kerMIhax": 0,
+          "kpnF2coo": 382,
+          "kvrYgaKv": 58,
+          "mfKDfKsN": 1,
+          "mqVUQBEP": 0,
+          "nJj1wHLS": 50,
+          "oOgX0apx": 0,
+          "pgtxVjFu": 1,
+          "poGVOuzy": 3,
+          "s8zdvXyu": 0,
+          "sqThf2PJ": 0,
+          "tkEQFO93": 1,
+          "uRzl2H2M": 1,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 0,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 6,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zhfm1nvz": 1000
+        },
+        "709": {
+          "3TCx0XPg": 0,
+          "713brG5P": 8,
+          "SF1ScOK9": 6,
+          "VOj3zfre": 2500,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 99,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 30,
+          "pvw9uUnH": 25
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 0,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 6,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 7,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 29,
+          "source": 17,
+          "stacks": 84,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Common_VerdantSeed_StatusEffect",
+          "instance": 31,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 32,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 33,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 109,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 185,
+          "source": 17,
+          "stacks": 30,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 190,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Legendary_Finisher_StatusEffect",
+          "instance": 320,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Epic_Damage_StatusEffect",
+          "instance": 321,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChiEruption_Epic_Discount_StatusEffect",
+          "instance": 322,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 323,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 325,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Uncommon_VerdantSprout_StatusEffect",
+          "instance": 384,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_MoveBinding_StatusEffect",
+          "instance": 386,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 387,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Vigorous_Set_4_StatusEffect",
+          "instance": 390,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 489,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_Kwilling_StatusEffect",
+          "instance": 490,
+          "source": 17,
+          "stacks": 4,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_UsableItem_StatusEffect",
+          "instance": 491,
+          "source": 17,
+          "stacks": 2,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_8_StatusEffect",
+          "instance": 492,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_GarnetKeystone_StatusEffect",
+          "instance": 493,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 495,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Enchanted_Set_4_StatusEffect",
+          "instance": 497,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Ancient_Set_4_StatusEffect",
+          "instance": 498,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_Shocked_StatusEffect",
+          "instance": 499,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Rare_CheapFirstTime_StatusEffect",
+          "instance": 732,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 733,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Swashbuckler_Set_2_StatusEffect",
+          "instance": 734,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Shadow_Set_2_StatusEffect",
+          "instance": 735,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_StatusEffect",
+          "instance": 736,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Precision_Set_4_StatusEffect",
+          "instance": 740,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPOnKill_StatusEffect",
+          "instance": 741,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 742,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_ErmongsEgg_StatusEffect",
+          "instance": 743,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_8_OncePerTurn_StatusEffect",
+          "instance": 1046,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Rare_HexShattered_StatusEffect",
+          "instance": 1052,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "PilferUpgrade_Epic_Orb_StatusEffect",
+          "instance": 1053,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChallengeBuff_Beefy_Base_StatusEffect",
+          "instance": 1062,
+          "source": 709,
+          "stacks": 1,
+          "target": 709
+        },
+        {
+          "effect": "GroupAffix_AllGroupsBuff_StatusEffect",
+          "instance": 1063,
+          "source": 709,
+          "stacks": 1,
+          "target": 709
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1064,
+          "source": 709,
+          "stacks": 1,
+          "target": 709
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1065,
+          "source": 709,
+          "stacks": 1,
+          "target": 709
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1066,
+          "source": -1,
+          "stacks": 1,
+          "target": 709
+        },
+        {
+          "effect": "Global_EnemyAttackUp_25_Permanent_StatusEffect",
+          "instance": 1079,
+          "source": 707,
+          "stacks": 1,
+          "target": 709
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_InCombat_StatusEffect",
+          "instance": 1090,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Potion_Rare_PowerIntoDamageReduction_StatusEffect",
+          "instance": 1094,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1095,
+          "source": 17,
+          "stacks": 42,
+          "target": 17
+        },
+        {
+          "effect": "C08_ComboBuilder_StatusEffect",
+          "instance": 1098,
+          "source": 17,
+          "stacks": 2,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_PhysicalTrigger_StatusEffect",
+          "instance": 1099,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_5_DamageMult_StatusEffect",
+          "instance": 1101,
+          "source": 17,
+          "stacks": 3,
+          "target": 17
+        }
+      ],
+      "units": {
+        "17": "BasePlayerData",
+        "709": "BarbedBanshee_Medium_VIL_T3_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData",
+        "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_PD_Distance_Action",
+        "amount": 6429,
+        "critical": true,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 709,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T19:25:25 15"
+    },
+    "expected_components": [
+      {
+        "damage": 115.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 75.0,
+        "name": "Distance bonus"
+      },
+      {
+        "damage": 725.8,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 274.74,
+        "name": "Verdant Set 5 Damage Mult"
+      },
+      {
+        "damage": 2381.08,
+        "name": "Potion Rare Power Into Damage Reduction Damage Mult"
+      },
+      {
+        "damage": 2857.29,
+        "name": "Critical hit"
+      },
+      {
+        "damage": 0.09,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_PD_Distance_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData"
+      },
+      "fresh": [
+        833,
+        17
+      ],
+      "full_history": true,
+      "positions": {
+        "17": [
+          667681,
+          132937
+        ],
+        "833": [
+          666909,
+          155197
+        ]
+      },
+      "stats": {
+        "17": {
+          "0QrjYnv0": 0,
+          "19n1lQEq": 0,
+          "1dfOu46E": 0,
+          "1eaM7rNc": 0,
+          "39B84CUc": 4,
+          "3FXVvW6T": 130,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 0,
+          "3q6veo6B": 3,
+          "3tlEcxSf": 0,
+          "5xqtVYwj": 0,
+          "6Tc8lkP4": 1,
+          "7UdABbWD": 1,
+          "7jRKQfkN": 1,
+          "80BENuzN": 50,
+          "8aMbsOtz": 5,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "Aq4R5Hl7": 0,
+          "BkEX2Osj": 2,
+          "CA4mpNph": 1,
+          "Dp4MeXPR": 0,
+          "Dvrp4P6W": 4,
+          "DxY3kHVl": 0,
+          "EevgwYu5": 5,
+          "FUr05zNM": 2,
+          "FtBty9sm": 0,
+          "GQJcb8UF": 0,
+          "IU9887oS": 1,
+          "J6UByQa8": 33,
+          "JkdE6FIF": 120,
+          "K3G3pgjn": 75,
+          "L0SCtKk4": 0,
+          "LJxk6hNN": 3,
+          "NxVGBPfl": 0,
+          "OQ28xEWt": 0,
+          "PHrOB2gl": 0,
+          "PRT1pX5D": 3,
+          "R2XKNSrO": 0,
+          "Rt7YTCzq": 0,
+          "S6n8nHlc": 1,
+          "S9V73F7x": 30,
+          "TnfhYmFe": 0,
+          "U0K4mqkv": 0,
+          "UtFcUMPs": 0,
+          "V8hQhpmQ": 0,
+          "VOj3zfre": 33,
+          "VsP2ynv6": 1,
+          "WH3OSgmw": 0,
+          "WUdvpDOO": 0,
+          "X5A81guj": 1,
+          "X6nYGESe": 80,
+          "XEcctIJx": 25,
+          "YPKVSX4T": 1,
+          "bFwnYuVx": 6,
+          "bL6sc2vt": 0,
+          "ewyMKwUQ": 1000,
+          "gKrWSp5L": 0,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hjeFxRp3": 0,
+          "hqrnJm1B": 4,
+          "jQTead3o": 1,
+          "jh8cQAWM": 7,
+          "kYkgmOD1": 8,
+          "kerMIhax": 0,
+          "kpnF2coo": 653,
+          "kvrYgaKv": 73,
+          "mfKDfKsN": 1,
+          "mqVUQBEP": 0,
+          "nJj1wHLS": 50,
+          "oOgX0apx": 0,
+          "pgtxVjFu": 2,
+          "poGVOuzy": 3,
+          "s8zdvXyu": 0,
+          "sqThf2PJ": 0,
+          "tkEQFO93": 1,
+          "uRzl2H2M": 1,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 0,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 10,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 35,
+          "zhfm1nvz": 1000
+        },
+        "833": {
+          "0QnywPkl": 0,
+          "3TCx0XPg": 0,
+          "713brG5P": 1000,
+          "IkvTI2Oq": 1,
+          "JQzl2pUt": 1,
+          "MbaQWCJl": 0,
+          "SF1ScOK9": 12,
+          "VOj3zfre": 45000,
+          "XUvtRNhO": 5,
+          "e9vCI1hn": 0,
+          "h9srdbWs": 100,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pq6hlsOe": 0,
+          "v1BI5AAy": 1,
+          "xRrIClIe": 0
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 0,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 6,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 7,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 29,
+          "source": 17,
+          "stacks": 101,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Common_VerdantSeed_StatusEffect",
+          "instance": 31,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 32,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 33,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 109,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 185,
+          "source": 17,
+          "stacks": 41,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 190,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Legendary_Finisher_StatusEffect",
+          "instance": 320,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Epic_Damage_StatusEffect",
+          "instance": 321,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChiEruption_Epic_Discount_StatusEffect",
+          "instance": 322,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 323,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 325,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_MoveBinding_StatusEffect",
+          "instance": 386,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 387,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 489,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_Kwilling_StatusEffect",
+          "instance": 490,
+          "source": 17,
+          "stacks": 4,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_UsableItem_StatusEffect",
+          "instance": 491,
+          "source": 17,
+          "stacks": 2,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 495,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Enchanted_Set_4_StatusEffect",
+          "instance": 497,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Ancient_Set_4_StatusEffect",
+          "instance": 498,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_Shocked_StatusEffect",
+          "instance": 499,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Rare_CheapFirstTime_StatusEffect",
+          "instance": 732,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 733,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Swashbuckler_Set_2_StatusEffect",
+          "instance": 734,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Shadow_Set_2_StatusEffect",
+          "instance": 735,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_StatusEffect",
+          "instance": 736,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Precision_Set_4_StatusEffect",
+          "instance": 740,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPOnKill_StatusEffect",
+          "instance": 741,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Rare_HexShattered_StatusEffect",
+          "instance": 1052,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "PilferUpgrade_Epic_Orb_StatusEffect",
+          "instance": 1053,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Mythos_Set_Counter_StatusEffect",
+          "instance": 1282,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Epic_ConserveCharge_StatusEffect",
+          "instance": 1289,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 1290,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 1292,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 1293,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_8_StatusEffect",
+          "instance": 1295,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Vigorous_Set_6_StatusEffect",
+          "instance": 1296,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ExpertBinder_Set_3_StatusEffect",
+          "instance": 1299,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_TheClepsydranium_StatusEffect",
+          "instance": 1300,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_PosessedItem_StatusEffect",
+          "instance": 1301,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_ShockedOnHit_StatusEffect",
+          "instance": 1302,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Raven_StatusEffect",
+          "instance": 1303,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "IsVillain_StatusEffect",
+          "instance": 1304,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1305,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1306,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1307,
+          "source": -1,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_InCombat_StatusEffect",
+          "instance": 1319,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_PosessedItem_DeathCounter_StatusEffect",
+          "instance": 1320,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_PosessedItem_Buff_Joke_StatusEffect",
+          "instance": 1322,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1325,
+          "source": 17,
+          "stacks": 370,
+          "target": 17
+        },
+        {
+          "effect": "Fish_DodgeGainCrit_StatusEffect",
+          "instance": 1328,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Fish_ManaPool_StatusEffect",
+          "instance": 1351,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "TurnToAttacker_StatusEffect",
+          "instance": 1387,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "Fish_ExtraDamage_StatusEffect",
+          "instance": 1394,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_PhysicalTrigger_StatusEffect",
+          "instance": 1407,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_5_DamageMult_StatusEffect",
+          "instance": 1413,
+          "source": 17,
+          "stacks": 3,
+          "target": 17
+        },
+        {
+          "effect": "C08_ComboBuilder_StatusEffect",
+          "instance": 1414,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        }
+      ],
+      "units": {
+        "17": "BasePlayerData",
+        "833": "Raven_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData",
+        "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_PD_Distance_Action",
+        "amount": 2459,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 833,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T19:33:48 47"
+    },
+    "expected_components": [
+      {
+        "damage": 115.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 125.0,
+        "name": "Distance bonus"
+      },
+      {
+        "damage": 84.0,
+        "name": "Physical damage"
+      },
+      {
+        "damage": 1567.2,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 567.36,
+        "name": "Verdant Set 5 Damage Mult"
+      },
+      {
+        "damage": 0.44,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_MD_Distance_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData"
+      },
+      "fresh": [
+        17,
+        707
+      ],
+      "full_history": true,
+      "positions": {
+        "17": [
+          225277,
+          74701
+        ],
+        "707": [
+          235390,
+          86665
+        ]
+      },
+      "stats": {
+        "17": {
+          "0QrjYnv0": 0,
+          "19n1lQEq": 0,
+          "1dfOu46E": 1,
+          "1eaM7rNc": 0,
+          "39B84CUc": 4,
+          "3FXVvW6T": 80,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 0,
+          "3q6veo6B": 2,
+          "3tlEcxSf": 0,
+          "5xqtVYwj": 0,
+          "6Tc8lkP4": 1,
+          "7UdABbWD": 2,
+          "7jRKQfkN": 0,
+          "80BENuzN": 50,
+          "8aMbsOtz": 6,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "Aq4R5Hl7": 0,
+          "BkEX2Osj": 2,
+          "CA4mpNph": 1,
+          "Dp4MeXPR": 0,
+          "Dvrp4P6W": 4,
+          "DxY3kHVl": 0,
+          "EevgwYu5": 0,
+          "FUr05zNM": 2,
+          "FtBty9sm": 100,
+          "GQJcb8UF": 0,
+          "IU9887oS": 0,
+          "J6UByQa8": 23,
+          "JkdE6FIF": 120,
+          "K3G3pgjn": 50,
+          "L0SCtKk4": 0,
+          "LJxk6hNN": 3,
+          "NxVGBPfl": 0,
+          "OQ28xEWt": 0,
+          "PHrOB2gl": 0,
+          "PRT1pX5D": 1,
+          "R2XKNSrO": 0,
+          "Rt7YTCzq": 0,
+          "S6n8nHlc": 1,
+          "S9V73F7x": 30,
+          "TnfhYmFe": 0,
+          "U0K4mqkv": 200,
+          "UtFcUMPs": 0,
+          "V8hQhpmQ": 0,
+          "VOj3zfre": 31,
+          "VsP2ynv6": 1,
+          "WH3OSgmw": 1,
+          "WUdvpDOO": 0,
+          "X5A81guj": 1,
+          "X6nYGESe": 80,
+          "XEcctIJx": 25,
+          "YPKVSX4T": 1,
+          "bFwnYuVx": 5,
+          "bL6sc2vt": 0,
+          "ewyMKwUQ": 1000,
+          "gKrWSp5L": 0,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hjeFxRp3": 0,
+          "hqrnJm1B": 4,
+          "jQTead3o": 1,
+          "jh8cQAWM": 6,
+          "kYkgmOD1": 8,
+          "kerMIhax": 0,
+          "kpnF2coo": 379,
+          "kvrYgaKv": 60,
+          "mfKDfKsN": 1,
+          "mqVUQBEP": 0,
+          "nJj1wHLS": 50,
+          "oOgX0apx": 0,
+          "pgtxVjFu": 1,
+          "poGVOuzy": 3,
+          "s8zdvXyu": 0,
+          "sqThf2PJ": 0,
+          "tkEQFO93": 1,
+          "uRzl2H2M": 1,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 0,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 6,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zhfm1nvz": 1000
+        },
+        "707": {
+          "3TCx0XPg": 0,
+          "713brG5P": 20,
+          "SF1ScOK9": 5,
+          "VOj3zfre": 5500,
+          "XUvtRNhO": 1,
+          "h9srdbWs": 4,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pvw9uUnH": 25
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 0,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 6,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 7,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 29,
+          "source": 17,
+          "stacks": 83,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Common_VerdantSeed_StatusEffect",
+          "instance": 31,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 32,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 33,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 109,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 185,
+          "source": 17,
+          "stacks": 30,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 190,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Legendary_Finisher_StatusEffect",
+          "instance": 320,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Epic_Damage_StatusEffect",
+          "instance": 321,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChiEruption_Epic_Discount_StatusEffect",
+          "instance": 322,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 323,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 325,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Uncommon_VerdantSprout_StatusEffect",
+          "instance": 384,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_MoveBinding_StatusEffect",
+          "instance": 386,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 387,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Vigorous_Set_4_StatusEffect",
+          "instance": 390,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 489,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_Kwilling_StatusEffect",
+          "instance": 490,
+          "source": 17,
+          "stacks": 4,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_UsableItem_StatusEffect",
+          "instance": 491,
+          "source": 17,
+          "stacks": 2,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_8_StatusEffect",
+          "instance": 492,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_GarnetKeystone_StatusEffect",
+          "instance": 493,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 495,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Enchanted_Set_4_StatusEffect",
+          "instance": 497,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Ancient_Set_4_StatusEffect",
+          "instance": 498,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_Shocked_StatusEffect",
+          "instance": 499,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Rare_CheapFirstTime_StatusEffect",
+          "instance": 732,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 733,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Swashbuckler_Set_2_StatusEffect",
+          "instance": 734,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Shadow_Set_2_StatusEffect",
+          "instance": 735,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_StatusEffect",
+          "instance": 736,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Precision_Set_4_StatusEffect",
+          "instance": 740,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPOnKill_StatusEffect",
+          "instance": 741,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 742,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_ErmongsEgg_StatusEffect",
+          "instance": 743,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_MagicalTrigger_StatusEffect",
+          "instance": 1036,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_8_OncePerTurn_StatusEffect",
+          "instance": 1046,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Rare_HexShattered_StatusEffect",
+          "instance": 1052,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "PilferUpgrade_Epic_Orb_StatusEffect",
+          "instance": 1053,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Spawner_RuleExplainer_StatusEffect",
+          "instance": 1054,
+          "source": 707,
+          "stacks": 1,
+          "target": 707
+        },
+        {
+          "effect": "Generic_HUGE_Enemy_StatusEffect",
+          "instance": 1055,
+          "source": 707,
+          "stacks": 1,
+          "target": 707
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1056,
+          "source": 707,
+          "stacks": 1,
+          "target": 707
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1057,
+          "source": 707,
+          "stacks": 1,
+          "target": 707
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1058,
+          "source": -1,
+          "stacks": 1,
+          "target": 707
+        },
+        {
+          "effect": "Global_EnemyAttackUp_25_Permanent_StatusEffect",
+          "instance": 1081,
+          "source": 707,
+          "stacks": 1,
+          "target": 707
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_InCombat_StatusEffect",
+          "instance": 1090,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Potion_Rare_PowerIntoDamageReduction_StatusEffect",
+          "instance": 1094,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1095,
+          "source": 17,
+          "stacks": 10,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_5_DamageMult_StatusEffect",
+          "instance": 1097,
+          "source": 17,
+          "stacks": 3,
+          "target": 17
+        },
+        {
+          "effect": "C08_ComboBuilder_StatusEffect",
+          "instance": 1098,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        }
+      ],
+      "units": {
+        "17": "BasePlayerData",
+        "707": "Spawner_Huge_VIL_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData",
+        "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_MD_Distance_Action",
+        "amount": 3920,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 707,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T19:25:23 76"
+    },
+    "expected_components": [
+      {
+        "damage": 115.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 75.0,
+        "name": "Distance bonus"
+      },
+      {
+        "damage": 95.0,
+        "name": "Magic damage"
+      },
+      {
+        "damage": 720.1,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 301.53,
+        "name": "Verdant Set 5 Damage Mult"
+      },
+      {
+        "damage": 2613.26,
+        "name": "Potion Rare Power Into Damage Reduction Damage Mult"
+      },
+      {
+        "damage": 0.11,
+        "name": "Rounding"
+      }
+    ]
+  },
+  {
+    "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_MD_Distance_Action",
+    "context": {
+      "build": 24243,
+      "cast_abilities": {
+        "17": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData"
+      },
+      "fresh": [
+        833,
+        17
+      ],
+      "full_history": true,
+      "positions": {
+        "17": [
+          665827,
+          164142
+        ],
+        "833": [
+          666909,
+          138813
+        ]
+      },
+      "stats": {
+        "17": {
+          "0QrjYnv0": 0,
+          "19n1lQEq": 0,
+          "1dfOu46E": 0,
+          "1eaM7rNc": 0,
+          "39B84CUc": 4,
+          "3FXVvW6T": 130,
+          "3TCx0XPg": 0,
+          "3lmEpKrf": 10,
+          "3mmEyghT": 0,
+          "3q6veo6B": 3,
+          "3tlEcxSf": 0,
+          "5xqtVYwj": 0,
+          "6Tc8lkP4": 1,
+          "7UdABbWD": 1,
+          "7jRKQfkN": 1,
+          "80BENuzN": 50,
+          "8aMbsOtz": 5,
+          "9QpTgVjt": 0,
+          "A3xbQ1as": 0,
+          "AQUQofPh": 0,
+          "Aq4R5Hl7": 0,
+          "BkEX2Osj": 2,
+          "CA4mpNph": 1,
+          "Dp4MeXPR": 0,
+          "Dvrp4P6W": 4,
+          "DxY3kHVl": 0,
+          "EevgwYu5": 5,
+          "FUr05zNM": 2,
+          "FtBty9sm": 0,
+          "GQJcb8UF": 0,
+          "IU9887oS": 1,
+          "J6UByQa8": 33,
+          "JkdE6FIF": 120,
+          "K3G3pgjn": 75,
+          "L0SCtKk4": 0,
+          "LJxk6hNN": 3,
+          "NxVGBPfl": 0,
+          "OQ28xEWt": 0,
+          "PHrOB2gl": 0,
+          "PRT1pX5D": 3,
+          "R2XKNSrO": 0,
+          "Rt7YTCzq": 0,
+          "S6n8nHlc": 1,
+          "S9V73F7x": 30,
+          "TnfhYmFe": 0,
+          "U0K4mqkv": 0,
+          "UtFcUMPs": 0,
+          "V8hQhpmQ": 0,
+          "VOj3zfre": 33,
+          "VsP2ynv6": 1,
+          "WH3OSgmw": 0,
+          "WUdvpDOO": 0,
+          "X5A81guj": 1,
+          "X6nYGESe": 80,
+          "XEcctIJx": 25,
+          "YPKVSX4T": 1,
+          "bFwnYuVx": 6,
+          "bL6sc2vt": 0,
+          "ewyMKwUQ": 1000,
+          "gKrWSp5L": 0,
+          "ggntvzpF": 1,
+          "h9srdbWs": 70,
+          "hjeFxRp3": 0,
+          "hqrnJm1B": 4,
+          "jQTead3o": 1,
+          "jh8cQAWM": 7,
+          "kYkgmOD1": 8,
+          "kerMIhax": 0,
+          "kpnF2coo": 656,
+          "kvrYgaKv": 70,
+          "mfKDfKsN": 1,
+          "mqVUQBEP": 0,
+          "nJj1wHLS": 50,
+          "oOgX0apx": 0,
+          "pgtxVjFu": 2,
+          "poGVOuzy": 3,
+          "s8zdvXyu": 0,
+          "sqThf2PJ": 0,
+          "tkEQFO93": 1,
+          "uRzl2H2M": 1,
+          "uxBzpHRx": 1,
+          "vBPDze3C": 0,
+          "vgYa6ah8": 1,
+          "x3mB7f2E": 10,
+          "y6RlHjGn": 100,
+          "yjO4IgCB": 25,
+          "zO4KuGPK": 35,
+          "zhfm1nvz": 1000
+        },
+        "833": {
+          "0QnywPkl": 0,
+          "3TCx0XPg": 0,
+          "713brG5P": 1000,
+          "IkvTI2Oq": 1,
+          "JQzl2pUt": 1,
+          "MbaQWCJl": 0,
+          "SF1ScOK9": 12,
+          "VOj3zfre": 45000,
+          "XUvtRNhO": 5,
+          "e9vCI1hn": 0,
+          "h9srdbWs": 100,
+          "kXTcKnyV": 1,
+          "ogsnL3Pq": 0,
+          "pq6hlsOe": 0,
+          "v1BI5AAy": 1,
+          "xRrIClIe": 0
+        }
+      },
+      "statuses": [
+        {
+          "effect": "C08_Combo_Manager_StatusEffect",
+          "instance": 0,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ManaPerTurn_StatusEffect",
+          "instance": 1,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_ShieldPerTurn_StatusEffect",
+          "instance": 2,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DefaultBehaviorPerOrb_StatusEffect",
+          "instance": 3,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ClassStatus_DodgeChanceToDodge_StatusEffect",
+          "instance": 4,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Uncommon_Movement_StatusEffect",
+          "instance": 6,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_FontsReplaceHealingWithAP_StatusEffect",
+          "instance": 7,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Trinket_GainStatsOnEnemyDeath_Small_StatusEffect",
+          "instance": 29,
+          "source": 17,
+          "stacks": 102,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Common_VerdantSeed_StatusEffect",
+          "instance": 31,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_StatusEffect",
+          "instance": 32,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 33,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 109,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_MaxHPIncrement_StatusEffect",
+          "instance": 185,
+          "source": 17,
+          "stacks": 41,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 190,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Legendary_Finisher_StatusEffect",
+          "instance": 320,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Epic_Damage_StatusEffect",
+          "instance": 321,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ChiEruption_Epic_Discount_StatusEffect",
+          "instance": 322,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 323,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 325,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_MoveBinding_StatusEffect",
+          "instance": 386,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 387,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Epic_OnKillReducePhysicalCosts_StatusEffect",
+          "instance": 489,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_Kwilling_StatusEffect",
+          "instance": 490,
+          "source": 17,
+          "stacks": 4,
+          "target": 17
+        },
+        {
+          "effect": "FindMult_UsableItem_StatusEffect",
+          "instance": 491,
+          "source": 17,
+          "stacks": 2,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 495,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Enchanted_Set_4_StatusEffect",
+          "instance": 497,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Ancient_Set_4_StatusEffect",
+          "instance": 498,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Rare_Shocked_StatusEffect",
+          "instance": 499,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "InfusedFistUpgrade_Rare_CheapFirstTime_StatusEffect",
+          "instance": 732,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 733,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Swashbuckler_Set_2_StatusEffect",
+          "instance": 734,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Shadow_Set_2_StatusEffect",
+          "instance": 735,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_StatusEffect",
+          "instance": 736,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Precision_Set_4_StatusEffect",
+          "instance": 740,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Rare_MaxHPOnKill_StatusEffect",
+          "instance": 741,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_Rare_HexShattered_StatusEffect",
+          "instance": 1052,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "PilferUpgrade_Epic_Orb_StatusEffect",
+          "instance": 1053,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Mythos_Set_Counter_StatusEffect",
+          "instance": 1282,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Discharge_Epic_ConserveCharge_StatusEffect",
+          "instance": 1289,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 1290,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Mythos_Set_6_StatusEffect",
+          "instance": 1292,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "DynamicStat_StatusEffect",
+          "instance": 1293,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Verdant_Set_8_StatusEffect",
+          "instance": 1295,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Vigorous_Set_6_StatusEffect",
+          "instance": 1296,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "ExpertBinder_Set_3_StatusEffect",
+          "instance": 1299,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_TheClepsydranium_StatusEffect",
+          "instance": 1300,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_PosessedItem_StatusEffect",
+          "instance": 1301,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_ShockedOnHit_StatusEffect",
+          "instance": 1302,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Raven_StatusEffect",
+          "instance": 1303,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "IsVillain_StatusEffect",
+          "instance": 1304,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1305,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "BaneDummy_StatusEffect",
+          "instance": 1306,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "Tier3Tracker_StatusEffect",
+          "instance": 1307,
+          "source": -1,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "VestigeAll_Rare_APOnConsume_InCombat_StatusEffect",
+          "instance": 1319,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_PosessedItem_DeathCounter_StatusEffect",
+          "instance": 1320,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "VestigeAll_Legendary_PosessedItem_Buff_Joke_StatusEffect",
+          "instance": 1322,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "KineticCharge_StatusEffect",
+          "instance": 1325,
+          "source": 17,
+          "stacks": 525,
+          "target": 17
+        },
+        {
+          "effect": "Fish_DodgeGainCrit_StatusEffect",
+          "instance": 1328,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Fish_ManaPool_StatusEffect",
+          "instance": 1351,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Fish_ExtraDamage_StatusEffect",
+          "instance": 1394,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "RunicStrike_MagicalTrigger_StatusEffect",
+          "instance": 1428,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        },
+        {
+          "effect": "Raven_Phase2Transition_Enrage_Manager_StatusEffect",
+          "instance": 1432,
+          "source": 833,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "Pilfer_StatusEffect",
+          "instance": 1447,
+          "source": 17,
+          "stacks": 1,
+          "target": 833
+        },
+        {
+          "effect": "Verdant_Set_5_DamageMult_StatusEffect",
+          "instance": 1448,
+          "source": 17,
+          "stacks": 3,
+          "target": 17
+        },
+        {
+          "effect": "C08_ComboBuilder_StatusEffect",
+          "instance": 1449,
+          "source": 17,
+          "stacks": 1,
+          "target": 17
+        }
+      ],
+      "units": {
+        "17": "BasePlayerData",
+        "833": "Raven_Unit"
+      }
+    },
+    "event": {
+      "data": {
+        "ability": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData",
+        "action": "RunicStrikeUpgrade_Legendary_RecklessLunge_MD_Distance_Action",
+        "amount": 2863,
+        "critical": false,
+        "dodged": false,
+        "effect": null,
+        "in_combat": true,
+        "loot": null,
+        "source": 17,
+        "target": 833,
+        "target_team": "Enemy"
+      },
+      "kind": "damage",
+      "timestamp": "0T19:34:31 23"
+    },
+    "expected_components": [
+      {
+        "damage": 115.0,
+        "name": "Base effect"
+      },
+      {
+        "damage": 150.0,
+        "name": "Distance bonus"
+      },
+      {
+        "damage": 198.75,
+        "name": "Magic damage"
+      },
+      {
+        "damage": 1738.4,
+        "name": "Omni damage"
+      },
+      {
+        "damage": 660.64,
+        "name": "Verdant Set 5 Damage Mult"
+      },
+      {
+        "damage": 0.21,
+        "name": "Rounding"
+      }
+    ]
+  }
+]

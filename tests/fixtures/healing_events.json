@@ -1,0 +1,641 @@
+[
+  {
+    "name": "ally_vestige_at_full_health",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C02",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "combat_start",
+        "timestamp": "",
+        "data": {
+          "zone": 99
+        }
+      },
+      {
+        "kind": "status",
+        "timestamp": "",
+        "data": {
+          "target": 1,
+          "source": 1,
+          "instance": 5,
+          "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+          "stacks": 1
+        }
+      },
+      {
+        "kind": "position",
+        "timestamp": "0T20:21:34 18",
+        "data": {
+          "id": 1,
+          "ability": "VestigeAll_Epic_AllyHeal2_AbilityData",
+          "position": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "kind": "support_record",
+        "timestamp": "0T20:21:34 18",
+        "data": {
+          "id": 1,
+          "record": "sI7wIL3j"
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "0T20:21:34 18",
+        "data": {
+          "target": 1,
+          "target_team": "Friendly",
+          "amount": 0,
+          "in_combat": true,
+          "action": "VestigeAll_Epic_AllyHeal_Heal_Action",
+          "ability": "VestigeAll_Epic_AllyHeal2_AbilityData",
+          "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+          "hp": 50,
+          "shield": 0,
+          "max_hp": 50
+        }
+      }
+    ],
+    "expected_total": 3,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "Overheal": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "restoration_heals_an_ally_without_a_provider_record",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C05",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 2,
+          "name": "Player 2",
+          "class_id": "C03",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "combat_start",
+        "timestamp": "",
+        "data": {
+          "zone": 99
+        }
+      },
+      {
+        "kind": "position",
+        "timestamp": "1T00:51:47 16",
+        "data": {
+          "id": 1,
+          "ability": "Restoration_AbilityData",
+          "position": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "kind": "support_record",
+        "timestamp": "1T00:51:47 26",
+        "data": {
+          "id": 2,
+          "record": "sI7wIL3j"
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "1T00:51:47 26",
+        "data": {
+          "target": 2,
+          "target_team": "Friendly",
+          "amount": 4,
+          "in_combat": true,
+          "action": "Restoration_Heal_Action",
+          "ability": "Restoration_AbilityData",
+          "effect": null,
+          "hp": 43,
+          "shield": 0,
+          "max_hp": 45
+        }
+      }
+    ],
+    "expected_total": 4,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "HP restored": 4
+        }
+      },
+      {
+        "id": 2,
+        "components": {}
+      }
+    ]
+  },
+  {
+    "name": "restoration_caps_and_overheals",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C05",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "combat_start",
+        "timestamp": "",
+        "data": {
+          "zone": 99
+        }
+      },
+      {
+        "kind": "position",
+        "timestamp": "1T01:03:52 57",
+        "data": {
+          "id": 1,
+          "ability": "Restoration_AbilityData",
+          "position": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "1T01:03:52 66",
+        "data": {
+          "target": 1,
+          "target_team": "Friendly",
+          "amount": 2,
+          "in_combat": true,
+          "action": "Restoration_Heal_Action",
+          "ability": "Restoration_AbilityData",
+          "effect": null,
+          "hp": 20,
+          "shield": 10,
+          "max_hp": 20
+        }
+      }
+    ],
+    "expected_total": 4,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "HP restored": 2,
+          "Overheal": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "mend_overheal_on_an_ally",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C05",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 2,
+          "name": "Player 2",
+          "class_id": "C01",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "combat_start",
+        "timestamp": "",
+        "data": {
+          "zone": 99
+        }
+      },
+      {
+        "kind": "position",
+        "timestamp": "1T01:13:58 94",
+        "data": {
+          "id": 1,
+          "ability": "Restoration_Legendary_Mend_AbilityData",
+          "position": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "1T01:13:59 02",
+        "data": {
+          "target": 2,
+          "target_team": "Friendly",
+          "amount": 4,
+          "in_combat": true,
+          "action": "Restoration_Legendary_Mend_Heal_Action",
+          "ability": "Restoration_Legendary_Mend_AbilityData",
+          "effect": null,
+          "hp": 45,
+          "shield": 2,
+          "max_hp": 45
+        }
+      }
+    ],
+    "expected_total": 5,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "HP restored": 4,
+          "Overheal": 1
+        }
+      },
+      {
+        "id": 2,
+        "components": {}
+      }
+    ]
+  },
+  {
+    "name": "mend_frame_counter_wrap_with_healing_bonus",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C05",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "stat",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "stat": "f3Yv3WIn",
+          "value": 5
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 2,
+          "name": "Player 2",
+          "class_id": "C03",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "combat_start",
+        "timestamp": "",
+        "data": {
+          "zone": 99
+        }
+      },
+      {
+        "kind": "position",
+        "timestamp": "1T01:45:10 97",
+        "data": {
+          "id": 1,
+          "ability": "Restoration_Legendary_Mend_AbilityData",
+          "position": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "kind": "support_record",
+        "timestamp": "1T01:45:10 03",
+        "data": {
+          "id": 2,
+          "record": "sI7wIL3j"
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "1T01:45:10 03",
+        "data": {
+          "target": 2,
+          "target_team": "Friendly",
+          "amount": 10,
+          "in_combat": true,
+          "action": "Restoration_Legendary_Mend_Heal_Action",
+          "ability": "Restoration_Legendary_Mend_AbilityData",
+          "effect": null,
+          "hp": 42,
+          "shield": 2,
+          "max_hp": 45
+        }
+      }
+    ],
+    "expected_total": 10,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "HP restored": 10
+        }
+      },
+      {
+        "id": 2,
+        "components": {}
+      }
+    ]
+  },
+  {
+    "name": "end_of_combat_vestige",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C01",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "status",
+        "timestamp": "",
+        "data": {
+          "target": 1,
+          "source": 1,
+          "instance": 4,
+          "effect": "VestigeAll_Rare_APOnCombatEnd_StatusEffect",
+          "stacks": 1
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "1T03:49:46 23",
+        "data": {
+          "target": 1,
+          "target_team": "Friendly",
+          "amount": 6,
+          "in_combat": false,
+          "action": "VestigeAll_Rare_APOnCombatEnd_Action",
+          "ability": null,
+          "effect": "VestigeAll_Rare_APOnCombatEnd_StatusEffect",
+          "hp": 20,
+          "shield": 0,
+          "max_hp": 30
+        }
+      }
+    ],
+    "expected_total": 6,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "HP restored": 6
+        }
+      }
+    ]
+  },
+  {
+    "name": "sapper_after_thread_removal_at_full_health",
+    "events": [
+      {
+        "kind": "game_build",
+        "timestamp": "",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create",
+        "timestamp": "",
+        "data": {}
+      },
+      {
+        "kind": "connection",
+        "timestamp": "",
+        "data": {
+          "connected": true,
+          "seed": 1234
+        }
+      },
+      {
+        "kind": "player",
+        "timestamp": "",
+        "data": {
+          "id": 1,
+          "name": "Player 1",
+          "class_id": "C04",
+          "unit_data": "BasePlayerData",
+          "resuming": false
+        }
+      },
+      {
+        "kind": "combat_start",
+        "timestamp": "",
+        "data": {
+          "zone": 99
+        }
+      },
+      {
+        "kind": "support_record",
+        "timestamp": "1T03:58:01 35",
+        "data": {
+          "id": 1,
+          "record": "sI7wIL3j"
+        }
+      },
+      {
+        "kind": "heal",
+        "timestamp": "1T03:58:01 35",
+        "data": {
+          "target": 1,
+          "target_team": "Friendly",
+          "amount": 0,
+          "in_combat": true,
+          "action": "ThreadUpgrade_Epic_Sapper_OnDetach_Action",
+          "ability": null,
+          "effect": "Threaded_StatusEffect",
+          "hp": 28,
+          "shield": 6,
+          "max_hp": 28
+        }
+      }
+    ],
+    "expected_total": 1,
+    "expected_players": [
+      {
+        "id": 1,
+        "components": {
+          "Overheal": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1678 @@
+[
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 448,
+          "team": "Friendly",
+          "class_id": "C02"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "zO4KuGPK",
+          "value": 45
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "l0WNQEem",
+          "value": 25
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 2,
+          "unit_data": "BigSpear_Medium_ALL_T2_Unit",
+          "resuming": false,
+          "zone": 448,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "SF1ScOK9",
+          "value": 6
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "pvw9uUnH",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "pq6hlsOe",
+          "value": 0
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "stacks": 1,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 2,
+          "effect": "Bleed_StatusEffect",
+          "stacks": 30,
+          "instance": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 2,
+          "effect": "Poison_StatusEffect",
+          "stacks": 53,
+          "instance": 3
+        }
+      }
+    ],
+    "hit": {
+      "source": 2,
+      "target": 1,
+      "amount": 5,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "BigSpear_Stab_Action",
+      "ability": "BigSpear_Stab_Ability",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 6,
+      "prevented": 1,
+      "credits": {
+        "Thaumaturge set (2)": 100
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 848,
+          "team": "Friendly",
+          "class_id": "C02"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "zO4KuGPK",
+          "value": 170
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "l0WNQEem",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "K3G3pgjn",
+          "value": 60
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "kpnF2coo",
+          "value": 100
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "TWM45OpA",
+          "value": 2
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 2,
+          "unit_data": "TuhningGuardian_Large_VIL_T3_Unit",
+          "resuming": false,
+          "zone": 848,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "SF1ScOK9",
+          "value": 9
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "FtBty9sm",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "pvw9uUnH",
+          "value": 50
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Blur_StatusEffect",
+          "stacks": 2,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 2,
+          "effect": "Poison_StatusEffect",
+          "stacks": 85,
+          "instance": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "stacks": 1,
+          "instance": 3
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 2,
+          "effect": "Bleed_StatusEffect",
+          "stacks": 9,
+          "instance": 4
+        }
+      }
+    ],
+    "hit": {
+      "source": 2,
+      "target": 1,
+      "amount": 10,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "TuhningGuardian_AoESlam_Action",
+      "ability": "TuhningGuardian_AoESlam_AbilityData",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 14,
+      "prevented": 4,
+      "credits": {
+        "Thaumaturge set (2)": 200,
+        "Blur": 200
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 982,
+          "team": "Friendly",
+          "class_id": "C02"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "zO4KuGPK",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "l0WNQEem",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "K3G3pgjn",
+          "value": 35
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "kpnF2coo",
+          "value": 330
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "TWM45OpA",
+          "value": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Blur_StatusEffect",
+          "stacks": 2,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "stacks": 1,
+          "instance": 2
+        }
+      }
+    ],
+    "hit": {
+      "source": 1,
+      "target": 1,
+      "amount": 0,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "Shadow_Set_2_TakeDamage_Action",
+      "ability": null,
+      "effect": "Shadow_Set_2_StatusEffect",
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 1,
+      "prevented": 1,
+      "credits": {
+        "Thaumaturge set (2)": 100
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 982,
+          "team": "Friendly",
+          "class_id": "C02"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "zO4KuGPK",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "l0WNQEem",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "K3G3pgjn",
+          "value": 35
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "kpnF2coo",
+          "value": 330
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "TWM45OpA",
+          "value": 2
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 2,
+          "unit_data": "RuhnstoneGuardian_Static_W_Unit",
+          "resuming": false,
+          "zone": 982,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "SF1ScOK9",
+          "value": 2
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "pq6hlsOe",
+          "value": 100
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Blur_StatusEffect",
+          "stacks": 2,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Thaumaturge_Set_2_StatBoost_StatusEffect",
+          "stacks": 1,
+          "instance": 2
+        }
+      }
+    ],
+    "hit": {
+      "source": 2,
+      "target": 1,
+      "amount": 0,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "RuhnstoneGuardian_BigAoE_Action",
+      "ability": "RuhnstoneGuardian_BigAoE_AbilityData",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 2,
+      "prevented": 2,
+      "credits": {
+        "Thaumaturge set (2)": 100,
+        "Blur": 100
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 101,
+          "team": "Friendly",
+          "class_id": "C09"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 10
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "zO4KuGPK",
+          "value": 15
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "OBbq2Wzr",
+          "value": 0
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 2,
+          "unit_data": "Figment_Large_ALL_T1_Unit",
+          "resuming": false,
+          "zone": 101,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "SF1ScOK9",
+          "value": 4
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "pvw9uUnH",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "MbaQWCJl",
+          "value": 30
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 1,
+          "effect": "Warden_Set_2_StatusEffect",
+          "stacks": 1,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 2,
+          "effect": "Shattered_StatusEffect",
+          "stacks": 1,
+          "instance": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 2,
+          "effect": "Bleed_StatusEffect",
+          "stacks": 5,
+          "instance": 3
+        }
+      }
+    ],
+    "hit": {
+      "source": 2,
+      "target": 1,
+      "amount": 4,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "FigmentStab_Damage_Action",
+      "ability": "FigmentStab_AbilityData",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 5,
+      "prevented": 1,
+      "credits": {
+        "Warden set (2)": 100
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 275,
+          "team": "Friendly",
+          "class_id": "C03"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 70
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "K3G3pgjn",
+          "value": 60
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "hfVI0nDK",
+          "value": 25
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 2,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 275,
+          "team": "Friendly",
+          "class_id": "C01"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "GzUrFJYy",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "r8LvUe1A",
+          "value": 25
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 3,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 275,
+          "team": "Friendly",
+          "class_id": "C05"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "3TCx0XPg",
+          "value": 10
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "K3G3pgjn",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "zO4KuGPK",
+          "value": 35
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "TWM45OpA",
+          "value": 1
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 4,
+          "unit_data": "Charger_Large_ALL_T1_Unit",
+          "resuming": false,
+          "zone": 275,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "SF1ScOK9",
+          "value": 5
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "FtBty9sm",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "pq6hlsOe",
+          "value": 20
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "MbaQWCJl",
+          "value": 30
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 3,
+          "target": 3,
+          "effect": "Warden_Set_2_StatusEffect",
+          "stacks": 1,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 3,
+          "target": 3,
+          "effect": "Blur_StatusEffect",
+          "stacks": 1,
+          "instance": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Frostbite_StatusEffect",
+          "stacks": 1,
+          "instance": 3
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 2,
+          "target": 4,
+          "effect": "Burn_StatusEffect",
+          "stacks": 44,
+          "instance": 4
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Burn_StatusEffect",
+          "stacks": 20,
+          "instance": 5
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 2,
+          "target": 4,
+          "effect": "Shattered_StatusEffect",
+          "stacks": 1,
+          "instance": 6
+        }
+      }
+    ],
+    "hit": {
+      "source": 4,
+      "target": 3,
+      "amount": 3,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "ChargerRam_Damage_Action",
+      "ability": "ChargerRam_AbilityData",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 5,
+      "prevented": 2,
+      "credits": {
+        "Warden set (2)": 100,
+        "Blur": 100
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 485,
+          "team": "Friendly",
+          "class_id": "C03"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 70
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "K3G3pgjn",
+          "value": 35
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "hfVI0nDK",
+          "value": 25
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 2,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 485,
+          "team": "Friendly",
+          "class_id": "C01"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "GzUrFJYy",
+          "value": 100
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "r8LvUe1A",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "7TD4Q5o6",
+          "value": 100
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "K3G3pgjn",
+          "value": 20
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 3,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 485,
+          "team": "Friendly",
+          "class_id": "C05"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "3TCx0XPg",
+          "value": 20
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "K3G3pgjn",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "zO4KuGPK",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "TWM45OpA",
+          "value": 0
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 4,
+          "unit_data": "Miniboss_T1_NimTheLost_Unit",
+          "resuming": false,
+          "zone": 485,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "SF1ScOK9",
+          "value": 12
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "MbaQWCJl",
+          "value": 0
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 3,
+          "target": 3,
+          "effect": "Warden_Set_5_StatusEffect",
+          "stacks": 1,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Burn_StatusEffect",
+          "stacks": 84,
+          "instance": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 2,
+          "target": 4,
+          "effect": "Burn_StatusEffect",
+          "stacks": 39,
+          "instance": 3
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Bleed_StatusEffect",
+          "stacks": 12,
+          "instance": 4
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Frostbite_StatusEffect",
+          "stacks": 8,
+          "instance": 5
+        }
+      }
+    ],
+    "hit": {
+      "source": 4,
+      "target": 3,
+      "amount": 12,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "NimTheLost_Smash_Damage_Action",
+      "ability": "NimTheLost_Smash_AbilityData",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 15,
+      "prevented": 3,
+      "credits": {
+        "Warden set (5)": 300
+      }
+    }
+  },
+  {
+    "events": [
+      {
+        "kind": "game_build",
+        "data": {
+          "build": 24243
+        }
+      },
+      {
+        "kind": "run_create"
+      },
+      {
+        "kind": "connection",
+        "data": {
+          "connected": true
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 1,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 485,
+          "team": "Friendly",
+          "class_id": "C03"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3FXVvW6T",
+          "value": 70
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "K3G3pgjn",
+          "value": 35
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "hfVI0nDK",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 1,
+          "stat": "TWM45OpA",
+          "value": 0
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 2,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 485,
+          "team": "Friendly",
+          "class_id": "C01"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "GzUrFJYy",
+          "value": 100
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "r8LvUe1A",
+          "value": 25
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "7TD4Q5o6",
+          "value": 100
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 2,
+          "stat": "K3G3pgjn",
+          "value": 60
+        }
+      },
+      {
+        "kind": "player",
+        "data": {
+          "id": 3,
+          "unit_data": "BasePlayerData",
+          "resuming": false,
+          "zone": 485,
+          "team": "Friendly",
+          "class_id": "C05"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "3FXVvW6T",
+          "value": 50
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "3TCx0XPg",
+          "value": 20
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "K3G3pgjn",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "zO4KuGPK",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 3,
+          "stat": "TWM45OpA",
+          "value": 1
+        }
+      },
+      {
+        "kind": "unit",
+        "data": {
+          "id": 4,
+          "unit_data": "Miniboss_T1_NimTheLost_Unit",
+          "resuming": false,
+          "zone": 485,
+          "team": "Enemy"
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "3TCx0XPg",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "SF1ScOK9",
+          "value": 12
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "MbaQWCJl",
+          "value": 30
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "pq6hlsOe",
+          "value": 0
+        }
+      },
+      {
+        "kind": "stat",
+        "data": {
+          "id": 4,
+          "stat": "0QnywPkl",
+          "value": 0
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 3,
+          "target": 3,
+          "effect": "Warden_Set_5_StatusEffect",
+          "stacks": 1,
+          "instance": 1
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Burn_StatusEffect",
+          "stacks": 54,
+          "instance": 2
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 2,
+          "target": 4,
+          "effect": "Burn_StatusEffect",
+          "stacks": 37,
+          "instance": 3
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 3,
+          "target": 4,
+          "effect": "Bleed_StatusEffect",
+          "stacks": 8,
+          "instance": 4
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 2,
+          "target": 4,
+          "effect": "Shattered_StatusEffect",
+          "stacks": 1,
+          "instance": 5
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 3,
+          "target": 3,
+          "effect": "Blur_StatusEffect",
+          "stacks": 1,
+          "instance": 6
+        }
+      },
+      {
+        "kind": "status",
+        "data": {
+          "source": 1,
+          "target": 4,
+          "effect": "Frostbite_StatusEffect",
+          "stacks": 3,
+          "instance": 7
+        }
+      }
+    ],
+    "hit": {
+      "source": 4,
+      "target": 3,
+      "amount": 6,
+      "target_team": "Friendly",
+      "in_combat": true,
+      "critical": false,
+      "dodged": false,
+      "action": "NimTheLost_GlobalSmashDamage_Action",
+      "ability": "NimTheLost_GlobalSmash_AbilityData",
+      "effect": null,
+      "loot": null
+    },
+    "expected": {
+      "status": "matched",
+      "before": 9,
+      "prevented": 3,
+      "credits": {
+        "Warden set (5)": 200,
+        "Blur": 100
+      }
+    }
+  }
+]

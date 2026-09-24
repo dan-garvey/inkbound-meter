@@ -1,0 +1,860 @@
+{
+  "abilities": {
+    "0QXBpof8": {
+      "asset": "InvocationUpgrade_Gaze_AbilityData",
+      "name": "Judgment"
+    },
+    "0jlbQoTT": {
+      "asset": "BlinkUpgrade_Legendary_Warp_AbilityData",
+      "name": "Warp"
+    },
+    "0nTu30eO": {
+      "asset": "Whirlwind_AbilityData",
+      "name": "Whirlwind"
+    },
+    "0rwdkGmm": {
+      "asset": "PilferUpgrade_Legendary_Heist_AbilityData",
+      "name": "Heist"
+    },
+    "1EQTE2T5": {
+      "asset": "CleaveUpgrade_Legendary_Eviscerate_AbilityData",
+      "name": "Eviscerate"
+    },
+    "1Hoa2nYx": {
+      "asset": "BulwarkUpgrade_Legendary_Impulse_AbilityData",
+      "name": "Impulse"
+    },
+    "1jz49bGo": {
+      "asset": "Constrict_Ability_Copy",
+      "name": "Constrict"
+    },
+    "1ssg3vnF": {
+      "asset": "PoisonCloudUpgrade_Legendary_NoxiousMiasma_AbilityData",
+      "name": "Putrify"
+    },
+    "1wqsvxOu": {
+      "asset": "Quicken_Legendary_Expedite_AbilityData",
+      "name": "Expedite"
+    },
+    "21cuFfK1": {
+      "asset": "Telekinesis_Legendary_Astrakinesis_AbilityData",
+      "name": "Astrakinesis"
+    },
+    "2mBmUgtk": {
+      "asset": "HuntersDashUpgrade_Legendary_Contaminate_AbilityData",
+      "name": "Contaminate"
+    },
+    "3BmKSHMa": {
+      "asset": "Stitch_Legendary_Tangle_Ability",
+      "name": "Tangle"
+    },
+    "3JIXy4GI": {
+      "asset": "Restoration_Legendary_Mend_AbilityData",
+      "name": "Quick Mend"
+    },
+    "3KfSBp0B": {
+      "asset": "BulwarkUpgrade_Legendary_GroundSlam_AbilityData",
+      "name": "Slam"
+    },
+    "3XVodvzJ": {
+      "asset": "DischargeUpgrade_Surge_AbilityData",
+      "name": "Surge"
+    },
+    "3Xa0e47R": {
+      "asset": "SmokeBomb_Legendary_SmokeScreen_AbilityData",
+      "name": "Smoke Screen"
+    },
+    "3s7w1JfE": {
+      "asset": "SeismicSlam_AbilityData_Copy",
+      "name": "Seismic Slam"
+    },
+    "3sk0J26c": {
+      "asset": "MirrorImageUpgrade_Legendary_Blur_AbilityData",
+      "name": "Phasing Image"
+    },
+    "4Kvn9dqh": {
+      "asset": "SmokeBomb_AbilityData",
+      "name": "Smoke Bomb"
+    },
+    "4a0XRDCe": {
+      "asset": "PoisonCloud_AbilityData",
+      "name": "Poison Vapor"
+    },
+    "59ra74QH": {
+      "asset": "SpiritBomb_Legendary_SSBomb_Ability",
+      "name": "Super Spirit Bomb"
+    },
+    "5dDYFY8o": {
+      "asset": "Jinx_AbilityData",
+      "name": "Jinx"
+    },
+    "5qn8RSSP": {
+      "asset": "Stitch_Ability",
+      "name": "Stitch"
+    },
+    "5wyBWo28": {
+      "asset": "Blink_AbilityData",
+      "name": "Blink"
+    },
+    "6P65NF4K": {
+      "asset": "SmokeBomb_Legendary_ClusterBomb_AbilityData",
+      "name": "Cluster Bomb"
+    },
+    "6a6dhn53": {
+      "asset": "InfusedFist_AbilityData_Copy",
+      "name": "Infused Fist"
+    },
+    "6kVDrI8d": {
+      "asset": "Quicken_Legendary_Accelerate_AbilityData",
+      "name": "Accelerate"
+    },
+    "7YqKwL4b": {
+      "asset": "Telekinesis_AbilityData",
+      "name": "Telekinesis"
+    },
+    "7wLnAWfs": {
+      "asset": "ThrowUpgrade_Legendary_Sharpshoot_Ability",
+      "name": "Sharpshoot"
+    },
+    "80M2wI7A": {
+      "asset": "HuntersDash_AbilityData",
+      "name": "Scavenger's Dash"
+    },
+    "928hHSIo": {
+      "asset": "InfusedFistUpgrade_Legendary_Infusion_AbilityData",
+      "name": "Equalizing Fist"
+    },
+    "9Aqw4P9B": {
+      "asset": "Invigorate_AbilityData",
+      "name": "Invigorate"
+    },
+    "9kxpszyu": {
+      "asset": "LeapingStrike_AbilityData_Copy",
+      "name": "Leaping Strike"
+    },
+    "9p0P5b8q": {
+      "asset": "PsychicPulse_Legendary_AuraSurge_AbilityData",
+      "name": "Aura Surge"
+    },
+    "AA2ASNnV": {
+      "asset": "Bonk_AbilityData",
+      "name": "Bonk"
+    },
+    "ABvArv0N": {
+      "asset": "PullUpgrade_Lure_AbilityData",
+      "name": "Lure"
+    },
+    "ASj6kIxa": {
+      "asset": "BlinkUpgrade_Legendary_Flash_AbilityData",
+      "name": "Flash"
+    },
+    "AWysjEKT": {
+      "asset": "CultivateUpgrade_Legendary_CropHarvest_AbilityData",
+      "name": "Crop Harvest"
+    },
+    "B9HBsnFd": {
+      "asset": "CultivateUpgrade_Legendary_MushroomGrowth_AbilityData",
+      "name": "Mushroom Growth"
+    },
+    "BLD6MzIH": {
+      "asset": "FireGrenade_AbilityData",
+      "name": "Incendiary"
+    },
+    "BgYyjDyO": {
+      "asset": "Throw_Ability",
+      "name": "Throw"
+    },
+    "BqDatKyh": {
+      "asset": "Invigorate_Legendary_BattleCry_AbilityData",
+      "name": "Battle Cry"
+    },
+    "C0W9xC3f": {
+      "asset": "VestigeAll_Common_QuietMetronome_AbilityData",
+      "name": "Quiet Metronome"
+    },
+    "CYAVrbRl": {
+      "asset": "PsychicPulse_AbilityData",
+      "name": "Psychic Pulse"
+    },
+    "CgXPAzdO": {
+      "asset": "PsychicPulse_Legendary_SpiritSapper_AbilityData",
+      "name": "Spirit Sapper"
+    },
+    "ChlLTXel": {
+      "asset": "Wildfire1_AbilityData",
+      "name": "Wildfire"
+    },
+    "D8DJQv57": {
+      "asset": "ChiEruption_AbilityData_Copy",
+      "name": "Eruption"
+    },
+    "D9lB0w3T": {
+      "asset": "PoisonCloudUpgrade_Legendary_PoisonDart_AbilityData",
+      "name": "Poison Dart"
+    },
+    "DEARNOPY": {
+      "asset": "Cryostasis_Main_Ability",
+      "name": "Cryoclasm"
+    },
+    "ERWtVRuq": {
+      "asset": "Stitch_Ability_Copy",
+      "name": "Stitch"
+    },
+    "ERhh42c1": {
+      "asset": "BulwarkUpgrade_Legendary_Shell_AbilityData",
+      "name": "Shell"
+    },
+    "Edo2Ejoh": {
+      "asset": "InfusedFistUpgrade_Legendary_Finisher_AbilityData",
+      "name": "Finishing Fist"
+    },
+    "Eh3Lqd8n": {
+      "asset": "ChainLightning_Legendary_LightningSpear_AbilityData",
+      "name": "Zap"
+    },
+    "EpE9gngw": {
+      "asset": "ChiEruption_Legendary_Overload_AbilityData",
+      "name": "Chi Overload"
+    },
+    "Es0B0TPL": {
+      "asset": "RunicStrike_AbilityData_Copy",
+      "name": "Runic Strike"
+    },
+    "EvR0gyNu": {
+      "asset": "ShieldBash_AbilityData_Copy",
+      "name": "Shield Bash"
+    },
+    "FO0nrCUN": {
+      "asset": "Bulwark_AbilityData_Copy",
+      "name": "Ironclap"
+    },
+    "Fg7WalTL": {
+      "asset": "ShieldWall_AbilityData",
+      "name": "Shield Wall"
+    },
+    "FmFx4pQW": {
+      "asset": "ConeOfFrostUpgrade_Legendary_FlashFreeze_AbilityData",
+      "name": "Flash Freeze"
+    },
+    "FslsTSsw": {
+      "asset": "MirrorImage_AbilityData",
+      "name": "Afterimage"
+    },
+    "GGK3oCMc": {
+      "asset": "ConeOfFrostUpgrade_Legendary_FrigidGust_AbilityData",
+      "name": "Frigid Gust"
+    },
+    "GIWFjz8U": {
+      "asset": "JinxUpgrade_Legendary_Bewitch_AbilityData",
+      "name": "Bewitch"
+    },
+    "HgMD9abE": {
+      "asset": "SeismicSlamUpgrade_Legendary_Earthquake_AbilityData",
+      "name": "Earthquake"
+    },
+    "Hwu8OolF": {
+      "asset": "Cultivate_AbilityData",
+      "name": "Cultivate"
+    },
+    "IGCa5F9h": {
+      "asset": "BlinkUpgrade_Legendary_Blast_AbilityData",
+      "name": "Blast"
+    },
+    "ILmGMl1q": {
+      "asset": "Telekinesis_Legendary_Aurakinesis_AbilityData",
+      "name": "Aurakinesis"
+    },
+    "IYTozl6O": {
+      "asset": "Zap_AbilityData_Copy",
+      "name": "Chillazer"
+    },
+    "Ib6E21JW": {
+      "asset": "LeapingStrike_AbilityData",
+      "name": "Leaping Strike"
+    },
+    "IvbG9kxX": {
+      "asset": "HuntersDashUpgrade_Legendary_Dance_AbilityData",
+      "name": "Deadly Dance"
+    },
+    "Iy6Bn9AQ": {
+      "asset": "WhirlwindUpgrade_Legendary_Stormcaller_AbilityData",
+      "name": "Stormcaller"
+    },
+    "JJSYUOFm": {
+      "asset": "FireGrenade_Legendary_FlashFire_AbilityData",
+      "name": "Flash Fire"
+    },
+    "Jdt8avfd": {
+      "asset": "ChainLightning_Legendary_ThunderClap_AbilityData",
+      "name": "Lightning Storm"
+    },
+    "Jf99O3YE": {
+      "asset": "SpiritBomb_AbilityData",
+      "name": "Spirit Bomb"
+    },
+    "Jj9vl7N1": {
+      "asset": "SmashUpgrade_Legendary_Demolish_Ability",
+      "name": "Demolish"
+    },
+    "Jn5xJqgk": {
+      "asset": "PsychicPulse_AbilityData_Copy",
+      "name": "Psychic Pulse"
+    },
+    "Jts5K4U8": {
+      "asset": "LeapingStrikeUpgrade_Legendary_Comet_AbilityData",
+      "name": "Comet"
+    },
+    "JyVlPePk": {
+      "asset": "ConeOfFrostUpgrade_Legendary_Blizzard_AbilityData",
+      "name": "Blizzard"
+    },
+    "K9jH5l4J": {
+      "asset": "Restoration_Legendary_GreaterRestoration_AbilityData",
+      "name": "Greater Restoration"
+    },
+    "KEDcK2Ng": {
+      "asset": "LeapingStrikeUpgrade_Legendary_Crater_AbilityData",
+      "name": "Crater"
+    },
+    "KHknEzsp": {
+      "asset": "ChainLightning_AbilityData",
+      "name": "Lightning Bolt"
+    },
+    "KO4gcMzk": {
+      "asset": "ShieldBashUpgrade_Legendary_ShieldSlam_AbilityData",
+      "name": "Shield Slam"
+    },
+    "KQF5bD3Q": {
+      "asset": "Wildfire2_AbilityData",
+      "name": "Wildfire"
+    },
+    "KlcyWsYN": {
+      "asset": "ChainLightning_Legendary_Bolt_AbilityData",
+      "name": "Chain Lightning"
+    },
+    "LnPMOkDQ": {
+      "asset": "Bonk_AbilityData_Copy",
+      "name": "Bonk"
+    },
+    "LxTMfPGo": {
+      "asset": "ThrowUpgrade_Legendary_SharphootMax_Ability",
+      "name": "Sharpshoot"
+    },
+    "MIMYJt1z": {
+      "asset": "ZapUpgrade_Legendary_Stimulate_AbilityData",
+      "name": "Stimulate"
+    },
+    "Mdx2MJLG": {
+      "asset": "FireGrenade_Legendary_WildFire_AbilityData",
+      "name": "Wildfire"
+    },
+    "Mntqxf3R": {
+      "asset": "InvocationUpgrade_Blessing_AbilityData",
+      "name": "Benediction"
+    },
+    "N7w5kQI9": {
+      "asset": "Restoration_Legendary_Regeneration_AbilityData",
+      "name": "Regeneration"
+    },
+    "NBzCFPrF": {
+      "asset": "ChiEruption_Legendary_Corruption_AbilityData",
+      "name": "Spirit Corruption"
+    },
+    "O7ad0SHM": {
+      "asset": "FlurryUpgrade_Legendary_Barrage_Ability",
+      "name": "Relentless Barrage"
+    },
+    "OLjUIkxD": {
+      "asset": "Smite3_Whirlwind_Ability",
+      "name": "Smite"
+    },
+    "ObpTevP1": {
+      "asset": "WhirlwindUpgrade_Legendary_CrimsonEdge_AbilityData",
+      "name": "Crimson Edge"
+    },
+    "PCbHmtr9": {
+      "asset": "PullUpgrade_Ensnare_AbilityData",
+      "name": "Envelop"
+    },
+    "PIAT2w25": {
+      "asset": "CleaveUpgrade_Legendary_Cleave_AbilityData",
+      "name": "Serrated Sweep"
+    },
+    "PODASLIU": {
+      "asset": "Potion_Epic_Smite_Ability",
+      "name": "nome"
+    },
+    "PRMFy0r0": {
+      "asset": "ImpaleUpgrade_Legendary_DivineStrike_AbilityData",
+      "name": "Divine Strike"
+    },
+    "Q00xqmYt": {
+      "asset": "JinxUpgrade_Legendary_Consume3_AbilityData",
+      "name": "Dread Harvest"
+    },
+    "QIoNfCfC": {
+      "asset": "ShieldWallUpgrade_Legendary_AbsorbingWall_AbilityData",
+      "name": "Fortify"
+    },
+    "Qr5Twwf3": {
+      "asset": "ConstrictUpgrade_Legendary_RopeBurn_Ability",
+      "name": "Rope Burn"
+    },
+    "QuIzVebS": {
+      "asset": "Restoration_AbilityData",
+      "name": "Restoration"
+    },
+    "QxzJhwWC": {
+      "asset": "Stitch_Legendary_Sew_Ability",
+      "name": "Sew"
+    },
+    "R9BS7p8R": {
+      "asset": "MissionLeaderUpgrade_Legendary_ShockTrooper_AbilityData",
+      "name": "Shock Trooper"
+    },
+    "RThcNWK8": {
+      "asset": "InfusedFistUpgrade_Legendary_Frenzy_AbilityData",
+      "name": "Supercharged Fist"
+    },
+    "RhvCo6Uo": {
+      "asset": "MissionLeaderUpgrade_Legendary_ArcticCommander_AbilityData",
+      "name": "Arctic Commander"
+    },
+    "S0MalFrW": {
+      "asset": "Impale_AbilityData_Copy",
+      "name": "Impale"
+    },
+    "S8du1E7v": {
+      "asset": "MirrorImageUpgrade_Legendary_Refraction_AbilityData",
+      "name": "Refraction"
+    },
+    "SM8WtRBA": {
+      "asset": "Smash_Ability_Copy",
+      "name": "Smash"
+    },
+    "SYHfJxv6": {
+      "asset": "ThreadUpgrade_Legendary_Tether_Ability",
+      "name": "Tether"
+    },
+    "TK1avADn": {
+      "asset": "Stitch_Legendary_Splice_Ability",
+      "name": "Splice"
+    },
+    "TM6zqu7N": {
+      "asset": "ThrowUpgrade_Legendary_ShapshootBase_Ability",
+      "name": "Sharpshoot"
+    },
+    "TbYw06xS": {
+      "asset": "Constrict_Ability",
+      "name": "Constrict"
+    },
+    "Tqk0ePfH": {
+      "asset": "Smite4_Whirlwind_Ability",
+      "name": "Smite"
+    },
+    "TyYa9hvJ": {
+      "asset": "ShieldBash_AbilityData",
+      "name": "Shield Bash"
+    },
+    "TzGQRjxN": {
+      "asset": "SmashUpgrade_Legendary_Tantrum_Ability",
+      "name": "Tantrum"
+    },
+    "UNj8MlRP": {
+      "asset": "Smite1_Whirlwind_Ability",
+      "name": "Smite"
+    },
+    "UzeCNamb": {
+      "asset": "InvocationUpgrade_DivineStorm_AbilityData",
+      "name": "Stormblessed"
+    },
+    "V5Do0sLV": {
+      "asset": "ShieldBashUpgrade_Legendary_Headbutt_AbilityData",
+      "name": "Headbutt"
+    },
+    "VCX9YwAC": {
+      "asset": "ThreadUpgrade_Legendary_Loom_Ability",
+      "name": "Loom"
+    },
+    "VbjAUrpA": {
+      "asset": "ChiEruption_Legendary_Flurry_AbilityData",
+      "name": "Tethering Surge"
+    },
+    "W00baDIh": {
+      "asset": "ConstrictUpgrade_Legendary_Strangulate_Ability",
+      "name": "Strangulate"
+    },
+    "W1rK5uqw": {
+      "asset": "ZapUpgrade_Legendary_BigGameHunter_AbilityData",
+      "name": "Big Game Hunter"
+    },
+    "W65pyb5T": {
+      "asset": "SeismicSlamUpgrade_Legendary_BreakingPoint_AbilityData",
+      "name": "Avalanche"
+    },
+    "WOEq49Dr": {
+      "asset": "CultivateUpgrade_Legendary_FlowerBloom_AbilityData",
+      "name": "Flower Bloom"
+    },
+    "WX0p3rEX": {
+      "asset": "ThrowUpgrade_Legendary_PoisonShot_Ability",
+      "name": "Poison Shot"
+    },
+    "WhGTKC2A": {
+      "asset": "Quicken_AbilityData",
+      "name": "Quicken"
+    },
+    "X07peQmg": {
+      "asset": "HuntersDash_AbilityData_Copy",
+      "name": "Scavenger's Dash"
+    },
+    "X1Ozey2s": {
+      "asset": "VestigeAll_Common_RandomShatter_AbilityData",
+      "name": "Quiet Metronome"
+    },
+    "X3vWJhII": {
+      "asset": "ConstrictUpgrade_Legendary_Entwine_Ability",
+      "name": "Entwine"
+    },
+    "XTAUetqg": {
+      "asset": "RunicStrikeUpgrade_Legendary_RecklessLunge_AbilityData",
+      "name": "Reckless Lunge"
+    },
+    "XkILLWzB": {
+      "asset": "ShieldWallUpgrade_Legendary_SpikedWall_AbilityData",
+      "name": "Palisade Wall"
+    },
+    "YEqTAHnt": {
+      "asset": "RunicStrikeUpgrade_Legendary_Twinlash_AbilityData",
+      "name": "Twinlash"
+    },
+    "YQ4Oeg3E": {
+      "asset": "Telekinesis_AbilityData_Copy",
+      "name": "Telekinesis"
+    },
+    "YUWzXbVx": {
+      "asset": "CleaveUpgrade_Legendary_Hemorrhage_AbilityData",
+      "name": "Hemorrhage"
+    },
+    "YvnWv1by": {
+      "asset": "Invigorate_Legendary_AdrenalineRush_AbilityData",
+      "name": "Adrenaline Rush"
+    },
+    "YwC16mrb": {
+      "asset": "PilferUpgrade_Legendary_Plunder_AbilityData",
+      "name": "Plunder"
+    },
+    "aPvcQJbe": {
+      "asset": "Whirlwind_AbilityData_Copy",
+      "name": "Whirlwind"
+    },
+    "aa8zcoaH": {
+      "asset": "Cleave_AbilityData",
+      "name": "Cleave"
+    },
+    "aq8sMHHq": {
+      "asset": "ChiEruption_AbilityData",
+      "name": "Eruption"
+    },
+    "axmNsgCa": {
+      "asset": "CelestialRazor_AbilityData",
+      "name": "Celestial Spear"
+    },
+    "ayCL3RQs": {
+      "asset": "CelestialUpgrade_Legendary_Bloodrain_AbilityData",
+      "name": "Bloodrain"
+    },
+    "bQQf9Yzg": {
+      "asset": "CelestialUpgrade_Legendary_BattleStandard_AbilityData",
+      "name": "Battle Standard"
+    },
+    "bRCQkFo6": {
+      "asset": "Thread_Ability_Copy",
+      "name": "Thread"
+    },
+    "c1MVGCPC": {
+      "asset": "RunicStrike_AbilityData",
+      "name": "Runic Strike"
+    },
+    "cMYfUIt5": {
+      "asset": "ShieldWallUpgrade_Legendary_Forcefield_AbilityData",
+      "name": "Forcefield"
+    },
+    "cXal3DnX": {
+      "asset": "VestigeAll_Common_RandomHex_AbilityData",
+      "name": "Quiet Metronome"
+    },
+    "cttgp0oW": {
+      "asset": "Flurry_AbilityData_Copy",
+      "name": "Flurry"
+    },
+    "dBC0Jd0I": {
+      "asset": "Quicken_Legendary_Hasten_AbilityData",
+      "name": "Hasten"
+    },
+    "e1AH92UP": {
+      "asset": "Invocation_AbilityData",
+      "name": "Invocation"
+    },
+    "e7Q5Hh16": {
+      "asset": "BonkUpgrade_Legendary_Spark_AbilityData",
+      "name": "Spark"
+    },
+    "ebwhwnQX": {
+      "asset": "SpiritBomb_AbilityData_Copy",
+      "name": "Spirit Bomb"
+    },
+    "ehq2mIfm": {
+      "asset": "Trinket_SpikedOnShield_Shield_AbilityData",
+      "name": "Opaline Essence of Quillion"
+    },
+    "en6FcnYh": {
+      "asset": "InfusedFist_AbilityData",
+      "name": "Infused Fist"
+    },
+    "epeC3tRo": {
+      "asset": "ThreadUpgrade_Legendary_Weave_Ability",
+      "name": "Weave"
+    },
+    "fJv6FdQt": {
+      "asset": "SpiritBomb_Legendary_SCannon_Ability",
+      "name": "Spirit Cannon"
+    },
+    "fxzgzszr": {
+      "asset": "Cryostasis_Main_Ability_Copy",
+      "name": "Cryoclasm"
+    },
+    "gEH7SOLJ": {
+      "asset": "HuntersDashUpgrade_Legendary_Mana_AbilityData",
+      "name": "Shurikenjutsu"
+    },
+    "gFe7E5oW": {
+      "asset": "Pull_AbilityData",
+      "name": "Grasp"
+    },
+    "gYTP4IbD": {
+      "asset": "Invigorate_Legendary_CallToArms_AbilityData",
+      "name": "Call to Arms"
+    },
+    "gq4EPczd": {
+      "asset": "Pilfer_AbilityData",
+      "name": "Pilfer"
+    },
+    "h63EpHHf": {
+      "asset": "Thread_Ability",
+      "name": "Thread"
+    },
+    "hE08QpOA": {
+      "asset": "ImpaleUpgrade_Legendary_LightningRod_AbilityData",
+      "name": "Lightning Rod"
+    },
+    "hItPEmmj": {
+      "asset": "BonkUpgrade_Legendary_Mine_AbilityData",
+      "name": "Mine"
+    },
+    "hSmxnQrv": {
+      "asset": "JinxUpgrade_Legendary_Vortex_AbilityData",
+      "name": "Grim Vortex"
+    },
+    "hqkjeoVN": {
+      "asset": "CryostasisUpgrade_Legendary_Winter_Main_Ability",
+      "name": "Long Winter"
+    },
+    "hv8s12un": {
+      "asset": "ShieldBashUpgrade_Legendary_BatteringRam_AbilityData",
+      "name": "Battering Ram"
+    },
+    "jTyQgD7j": {
+      "asset": "FlurryUpgrade_Legendary_LethalBurst_Ability",
+      "name": "Lethal Burst"
+    },
+    "jWVCKbMb": {
+      "asset": "MissionLeader_AbilityData",
+      "name": "Mission Leader"
+    },
+    "kpg2EhRs": {
+      "asset": "ConeOfFrost_AbilityData",
+      "name": "Cone of Frost"
+    },
+    "ktMnqo56": {
+      "asset": "Zap_AbilityData",
+      "name": "Chillazer"
+    },
+    "lnljrKcQ": {
+      "asset": "Smite1_Default_Whirlwind_Ability",
+      "name": "Smite"
+    },
+    "mWdoRuzV": {
+      "asset": "Smite3_Ability",
+      "name": "Smite"
+    },
+    "my7gMbFo": {
+      "asset": "Flurry_AbilityData",
+      "name": "Flurry"
+    },
+    "n24D1C8O": {
+      "asset": "PoisonCloudUpgrade_Legendary_Toxify_AbilityData",
+      "name": "Toxify"
+    },
+    "nOHCYgoU": {
+      "asset": "Throw_Ability_Copy",
+      "name": "Throw"
+    },
+    "odMRDhHP": {
+      "asset": "PsychicPulse_Legendary_PsychicBeam_AbilityData",
+      "name": "Psychic Beam"
+    },
+    "ossFsrfW": {
+      "asset": "Smite1_NearesAoE_Ability",
+      "name": "Smite"
+    },
+    "oyB92n7s": {
+      "asset": "RunicStrikeUpgrade_Legendary_DeathPalm_AbilityData",
+      "name": "Death Palm"
+    },
+    "p2eoUTX4": {
+      "asset": "FlurryUpgrade_Legendary_Outburst_Ability",
+      "name": "Poison Outburst"
+    },
+    "pdWUrBgo": {
+      "asset": "MissionLeader_AbilityData_Copy",
+      "name": "Mission Leader"
+    },
+    "puv0nPMw": {
+      "asset": "Smite2_Whirlwind_Ability",
+      "name": "Smite"
+    },
+    "pxRpO6y0": {
+      "asset": "CelestialRazor_AbilityData_Copy",
+      "name": "Celestial Spear"
+    },
+    "qaHMJya2": {
+      "asset": "SeismicSlam_AbilityData",
+      "name": "Seismic Slam"
+    },
+    "qf7JPRX3": {
+      "asset": "CryostasisUpgrade_Legendary_Zero_Main_Ability",
+      "name": "Absolute Zero"
+    },
+    "rldAFlg6": {
+      "asset": "SpiritBomb_Legendary_SpiritNova_Ability",
+      "name": "Spirit Well"
+    },
+    "rvDN7egI": {
+      "asset": "Telekinesis_Legendary_Psychokinesis_AbilityData",
+      "name": "Psychokinesis"
+    },
+    "sTd8eazq": {
+      "asset": "WhirlwindUpgrade_Legendary_EndlessMarch_AbilityData",
+      "name": "Endless March"
+    },
+    "sY47axU6": {
+      "asset": "SmashUpgrade_Legendary_Detonate_Ability",
+      "name": "Detonate"
+    },
+    "scqLFhGt": {
+      "asset": "ZapUpgrade_Legendary_FreezingRay_AbilityData",
+      "name": "Freezing Ray"
+    },
+    "tO6fNEBA": {
+      "asset": "Bulwark_AbilityData",
+      "name": "Ironclap"
+    },
+    "tPGOnWTO": {
+      "asset": "CryostasisUpgrade_Legendary_Eye_Main_Ability",
+      "name": "Eye of the Storm"
+    },
+    "uKmlmPMT": {
+      "asset": "BonkUpgrade_Legendary_Thwack_AbilityData",
+      "name": "Thwack!"
+    },
+    "uTIxP6Ce": {
+      "asset": "DischargeUpgrade_EfficientConversion_AbilityData",
+      "name": "Efficient Conversion"
+    },
+    "udvzWzay": {
+      "asset": "Smite1_Ability",
+      "name": "Smite"
+    },
+    "v6DzAgmR": {
+      "asset": "ImpaleUpgrade_Legendary_Warspear_AbilityData",
+      "name": "Warspear"
+    },
+    "vcp4oaBa": {
+      "asset": "Discharge_AbilityData",
+      "name": "Discharge"
+    },
+    "w2soQOkB": {
+      "asset": "PilferUpgrade_Legendary_Mug_AbilityData",
+      "name": "Mug"
+    },
+    "wsccuVSj": {
+      "asset": "ThrowUpgrade_Legendary_Ricochet_Ability",
+      "name": "Ricochet"
+    },
+    "x1A43v6A": {
+      "asset": "Smite2_Ability",
+      "name": "Smite"
+    },
+    "x97QOvA8": {
+      "asset": "Impale_AbilityData",
+      "name": "Impale"
+    },
+    "xFhfl4ll": {
+      "asset": "VestigeAll_Legendary_OhmicOrbWalkers_Ability",
+      "name": "Ohmic Orb Walkers"
+    },
+    "xMfbDNPb": {
+      "asset": "PullUpgrade_Envelop_AbilityData",
+      "name": "Harpoon"
+    },
+    "xaQq5YBR": {
+      "asset": "Smash_Ability",
+      "name": "Smash"
+    },
+    "xj9zcWfy": {
+      "asset": "CelestialUpgrade_Legendary_GoL_AbilityData",
+      "name": "God of Lightning"
+    },
+    "xoApX5jV": {
+      "asset": "LeapingStrikeUpgrade_Legendary_Excavate_AbilityData",
+      "name": "Excavate"
+    },
+    "yClAtaf1": {
+      "asset": "MissionLeaderUpgrade_Legendary_Trailblazer_AbilityData",
+      "name": "Trailblazer"
+    },
+    "zBdHlrH9": {
+      "asset": "SmokeBomb_Legendary_MistBomb_AbilityData",
+      "name": "Hidden Mist"
+    },
+    "zHD1qE6X": {
+      "asset": "SeismicSlamUpgrade_Legendary_Retaliate_AbilityData",
+      "name": "Cataclysmic Slam"
+    },
+    "zMmKWEgm": {
+      "asset": "DischargeUpgrade_Energize_AbilityData",
+      "name": "Energize"
+    },
+    "zarKUoP1": {
+      "asset": "MirrorImageUpgrade_Legendary_ShadowClone_AbilityData",
+      "name": "Shadow Image"
+    },
+    "zpt9FqHk": {
+      "asset": "FireGrenade_Legendary_Incinerate_AbilityData",
+      "name": "Incinerate"
+    }
+  },
+  "build": 24243,
+  "classes": {
+    "9PefGYIw": "C01",
+    "AB3y9f89": "C08",
+    "BMW7PAVm": "C04",
+    "IEsSzrHw": "C05",
+    "Muc6xong": "C03",
+    "USGx5F1m": "C09",
+    "llQf4CVu": "C06",
+    "nDyaQbhn": "C07",
+    "znXj09zC": "C02"
+  }
+}

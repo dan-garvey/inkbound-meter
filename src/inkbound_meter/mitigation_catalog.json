@@ -1,0 +1,1582 @@
+{
+  "actions": {
+    "Bane_PlayerDamageTakenOnOrb_Action": {
+      "amount": 1,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "BarbedBanshee_DoubleStab_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BarbedBanshee_Spin_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BarbedBanshee_Stab_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BigSpear_DoubleStab_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BigSpear_JumpAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BigSpear_Stab_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BigSword_Stab_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BigSword_Sweep_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BiterRanged_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Biter_Bite_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Biter_Smash_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BlightofHorror_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BlightofHorror_BigSwing_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Bombbit_Explode_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BomberAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "BossAffixGrenadeDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 225
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Burnout_HP_Action": {
+      "amount": 1,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "BurrowerEmergeDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Burrower_BiteDirectAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Captor_SoulshackleDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "ChannelerAmplify_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "ChannelerFire_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "ChannelerResist_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "ChargerRam_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Charger_Stomp_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 130
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Chompy_Chomp_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "FigmentShield_ArenaAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "FigmentShield_Charge_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 70
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "FigmentSmash_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "FigmentStab_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Hand_GroundPound_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Hand_LaserBeam_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 50
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Hand_LineCharge_PlayerHit_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Inkball_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Inkblaster_cannonAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Inkblaster_mortarAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InklingCannon_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InklingMeleeAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InkpotGunkSpawnAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InkpotSprayAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 130
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InkstainAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InkulaAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "InkulaScreech_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Inkzooka_cannonAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 120
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Inkzooka_mortarAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Jumper_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Jumper_JumpAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Kraken_EyeBeamDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "MeleeInkling_Smash_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_MC_Flurry_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_MM_Bonk_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_MM_LeapingStrike_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_MM_Smash_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_WV_AOE_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Mimic_WV_Direct_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NeedleThiefAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NimTheLost_Attack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NimTheLost_EruptionSpawnDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NimTheLost_GlobalSmashDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NimTheLost_SmashAOE_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NimTheLost_Smash_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "NimTheLost_SpawnChompy_Anim_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Nimbit_Bite_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "QuadrupedDummy_Counterattack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "QuadrupedDummy_JumpAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "QuadrupedDummy_SelfPowerUpAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "QuadrupedDummy_Stab_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 80
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Quillion_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Quillion_Charge_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "RangedInklingAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase0_Smash_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase0_VomitAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 80
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase1_JumpAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 125
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase1_Shoot_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 40
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase1_Smash_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 70
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase2_ArenaAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 50
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Phase2_Charge_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_Tangling_MeleeAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Raven_ThornSupportMage_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 50
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Razorshade_CounterAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 25
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Razorshade_Dash_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Razorshade_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 130
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Rhinferno_ChargerDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Rhinferno_StompPush_Push_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "RootChanneler_EnsnaringVines_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "RuhnstoneGuardian_BeamAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 200
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "RuhnstoneGuardian_BigAoE_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Scavenger_DirectAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Scavenger_RangedAoEDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Scavenger_SlowAndSpawn_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Season1_010_Scribe_GremlinIII_Action": {
+      "amount": 1,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "Season1_010_Scribe_GremlinII_Action": {
+      "amount": 1,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "Season1_010_Scribe_GremlinIV_Action": {
+      "amount": 1,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "ShadowOfRuhnstone_Head_FireBreath_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 50
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "ShadowOfRuhnstone_Head_GroundSlamDamage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Shadow_Set_2_TakeDamage_Action": {
+      "amount": 1,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "Shadow_Set_3_TakeDamage_Action": {
+      "amount": 3,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "Shadow_Set_5_TakeDamage_Action": {
+      "amount": 5,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "Shadow_Set_7_TakeDamage_Action": {
+      "amount": 7,
+      "crit": 0,
+      "direct": false,
+      "self": true,
+      "stacks": 0,
+      "tags": []
+    },
+    "Slimpe_Bite_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "SparringDummy_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 140
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "SparringDummy_Spin_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 130
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Stamper_AOE_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 50
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Stamper_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 200
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "SuicideScavenger_Explode_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "SupportMageShielder_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "SupportMage_Healer_Attack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "TangledKwill_MeleeAttack_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "TangledKwill_Smash_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 130
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Tentacle_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Tentacle_Eruption_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 150
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Tentacle_Slap_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Thantaloupe_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Thantaloupe_Stomp_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 125
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Thantaloupe_Sweep_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "TuhningGuardian_AoESlam_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "TuhningGuardian_BeamAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 100
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "VestigeC01_PheonixFlames_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 0
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": []
+    },
+    "Villain_Unbound_Damage_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": [
+        "202zHlpy"
+      ]
+    },
+    "Villain_Unbound_FinalForm_DirectAttack_Action": {
+      "amount": {
+        "id": "SF1ScOK9",
+        "op": "scaled_stat",
+        "percent": 75
+      },
+      "crit": 0,
+      "direct": true,
+      "self": false,
+      "stacks": 0,
+      "tags": [
+        "202zHlpy"
+      ]
+    }
+  },
+  "build": 24243,
+  "defenses": {
+    "Blur_StatusEffect": {
+      "entries": [
+        {
+          "label": "Blur",
+          "source_has": null,
+          "stat": "TWM45OpA",
+          "value": 1
+        },
+        {
+          "label": "Vestige: Efu\u2019s Guise",
+          "source_has": "Vestige_Legendary_DoubleBlurNoShield_StatusEffect",
+          "stat": "TWM45OpA",
+          "value": 2
+        }
+      ],
+      "per_stack": true
+    },
+    "Resistant_StatusEffect": {
+      "entries": [
+        {
+          "label": "Resistant",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 25
+        }
+      ],
+      "per_stack": true
+    },
+    "Thaumaturge_Set_2_StatBoost_StatusEffect": {
+      "entries": [
+        {
+          "label": "Thaumaturge set (2)",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 8
+        }
+      ],
+      "per_stack": true
+    },
+    "Thaumaturge_Set_4_StatBoost_StatusEffect": {
+      "entries": [
+        {
+          "label": "Thaumaturge set (4)",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 15
+        }
+      ],
+      "per_stack": true
+    },
+    "VestigeAll_Rare_SpikedPerDodge_StatusEffect": {
+      "entries": [
+        {
+          "label": "Vestige: Swindler's Getaway",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 5
+        }
+      ],
+      "per_stack": false
+    },
+    "VestigeAll_Uncommon_Teleport_StatusEffect": {
+      "entries": [
+        {
+          "label": "Vestige: Port-a-Hole",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 10
+        }
+      ],
+      "per_stack": false
+    },
+    "VestigeC04_Uncommon_ThreadShield_Shielding_StatusEffect": {
+      "entries": [
+        {
+          "label": "Vestige: Laid Rope",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 3
+        }
+      ],
+      "per_stack": true
+    },
+    "Vestige_DamageResistPerSpiked_Hidden_StatusEffect": {
+      "entries": [
+        {
+          "label": "Vestige: Gnarled Root",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 1
+        }
+      ],
+      "per_stack": true
+    },
+    "Warden_Set_2_StatusEffect": {
+      "entries": [
+        {
+          "label": "Warden set (2)",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 10
+        }
+      ],
+      "per_stack": false
+    },
+    "Warden_Set_5_StatusEffect": {
+      "entries": [
+        {
+          "label": "Warden set (5)",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 20
+        }
+      ],
+      "per_stack": false
+    },
+    "Warden_Set_8_StatusEffect": {
+      "entries": [
+        {
+          "label": "Warden set (8)",
+          "source_has": null,
+          "stat": "3TCx0XPg",
+          "value": 30
+        }
+      ],
+      "per_stack": false
+    }
+  },
+  "direct_attack_raw": {
+    "1": 4096,
+    "2": 5325,
+    "3": 6554,
+    "4": 8192
+  },
+  "easy_mode_raw": 3277,
+  "easy_mode_status": "ChallengeRunData_EasyMode_StatusEffect",
+  "evidence": {
+    "Managed/Assembly-CSharp.dll": "abf0c92bdd56d6d88fa6f3ad15833334ad548e42a3f605954dba47bc67f41de3",
+    "StreamingAssets/SharedScriptableObjects/SharedScriptableObjects.fb": "535f8aceb4b51cdcbd41368763d533eac58081787c185b5023306a1776ce51e1"
+  },
+  "literal_actions": [
+    "Quillion_StatusEffect_Damage_Action",
+    "ChannelerFire_DamageReflect_Action"
+  ]
+}

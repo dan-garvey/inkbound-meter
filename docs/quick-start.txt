@@ -1,0 +1,34 @@
+INKBOUND METER - WINDOWS QUICK START
+
+1. Right-click the zip and choose Extract All.
+2. Open the extracted InkboundMeter folder and run InkboundMeter.exe.
+   Keep the _internal folder beside the executable.
+3. Start Inkbound in borderless or windowed mode. The overlay finds the game
+   and its combat log automatically. No Python installation is needed.
+
+CONTROLS
+
+F8: Toggle interaction / click-through for both overlay windows.
+F9: Hide / show both windows.
+
+Drag each window by its header while unlocked.
+Click Damage in the meter to switch to Taken, Shielded, Healed or Enemy hits.
+Use the three-dot menu for settings, opacity and the Party overlay toggle.
+The tray icon can show and unlock the windows if you lose track of them.
+
+The Party window shows HP, shield, will, binding cooldowns and turn status.
+Hover binding tiles for their full names and cooldown details.
+A check on a binding means it is off cooldown; casting still requires will
+and a valid target. A check beside a player's name means they ended their turn.
+
+COMPATIBILITY AND DATA
+
+Requires 64-bit Windows. Live party memory reads support Inkbound build 24243.
+Other builds fall back to logged values with unavailable cooldowns.
+The app reads the game; it does not modify it or install a game mod.
+
+Each person gets their own settings and captured history in:
+%LOCALAPPDATA%\InkboundMeter
+
+The zip contains the app and instructions, not the sender's settings or history.
+See README.md for further details.

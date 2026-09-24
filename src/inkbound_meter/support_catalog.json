@@ -1,0 +1,579 @@
+{
+  "abilities": {
+    "ChallengeBuff_Lifelink_AbilityData": {
+      "ChallengeBuff_Lifelink_Heal_Action": 1
+    },
+    "ChiEruption_AbilityData": {
+      "ChiEruption_Uncommon_ShieldHeal_Action": 1
+    },
+    "ChiEruption_AbilityData_Copy": {
+      "ChiEruption_Uncommon_ShieldHeal_Action": 1
+    },
+    "ChiEruption_Legendary_Corruption_AbilityData": {
+      "ChiEruption_Uncommon_ShieldHeal_Action": 2
+    },
+    "ChiEruption_Legendary_Flurry_AbilityData": {
+      "ChiEruption_Uncommon_ShieldHeal_Action": 1
+    },
+    "ChiEruption_Legendary_Overload_AbilityData": {
+      "ChiEruption_Uncommon_ShieldHeal_Action": 1
+    },
+    "EnemyHeal_Ability": {
+      "EnemyHeal_Action": 1
+    },
+    "EnemyHeal_Global_Ability": {
+      "EnemyHeal_Action": 1
+    },
+    "HealingFlower_AbilityData": {
+      "HealingFlower_Action": 1
+    },
+    "InvocationUpgrade_Blessing_AbilityData": {
+      "InvocationUpgrade_Blessing_Heal_Action": 1
+    },
+    "JumperGroundEffect_AbilityData": {
+      "HealingFlower_Action": 1
+    },
+    "Potion_Legendary_Genie_2_HealFull_Ability": {
+      "Potion_Legendary_Genie_2_HealFull_Action": 1
+    },
+    "Restoration_AbilityData": {
+      "RestorationUpgrade_Rare_HealIfHalfHP_Action": 1,
+      "Restoration_Heal_Action": 1
+    },
+    "Restoration_Legendary_GreaterRestoration_AbilityData": {
+      "RestorationUpgrade_Rare_HealIfHalfHP_Action": 1,
+      "Restoration_Legendary_GreaterRestoration_Heal_Action": 1
+    },
+    "Restoration_Legendary_Mend_AbilityData": {
+      "RestorationUpgrade_Rare_HealIfHalfHP_Action": 1,
+      "Restoration_Legendary_Mend_Heal_Action": 1
+    },
+    "Restoration_Legendary_Regeneration_AbilityData": {
+      "RestorationUpgrade_Rare_HealIfHalfHP_Action": 1,
+      "Restoration_Legendary_Regeneration_Heal2_Action": 1
+    },
+    "VestigeAll_Epic_AllyHeal2_AbilityData": {
+      "VestigeAll_Epic_AllyHeal_Heal_Action": 1
+    }
+  },
+  "actions": {
+    "C01_ClassPassive_Heat_Heal_Action": {
+      "amount": {
+        "args": [
+          1,
+          "unsupported"
+        ],
+        "op": "mul"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "ChallengeBuff_Lifelink_Heal_Action": {
+      "amount": 50,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Challenge_RollTheDice_Action": {
+      "amount": {
+        "args": [
+          {
+            "effect": "Challenge_RollTheDice_Var1_StatusEffect",
+            "op": "stacks",
+            "side": "status_target"
+          },
+          {
+            "id": "nJj1wHLS",
+            "op": "stat",
+            "side": "status_target"
+          }
+        ],
+        "op": "sub"
+      },
+      "ignore_modifiers": true,
+      "mode": "flat",
+      "owner": "status_target",
+      "target": "status_target"
+    },
+    "ChiEruption_Uncommon_ShieldHeal_Action": {
+      "amount": 1,
+      "ignore_modifiers": true,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "CleaveUpgrade_Epic_Heal_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "EnemyHeal_Action": {
+      "amount": 20,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Event_DarkKwill_Curse_Heal_Action": {
+      "amount": 25,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Event_DarkKwill_Kwillings_Heal_Action": {
+      "amount": 50,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal15_Action": {
+      "amount": 15,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal20Percent_Action": {
+      "amount": 20,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal20_Action": {
+      "amount": 20,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal25_Action": {
+      "amount": 25,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal50Percent_Action": {
+      "amount": 50,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal5_Action": {
+      "amount": 5,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal_Medium_Interactable_Action": {
+      "amount": 50,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal_Small_Interactable_Action": {
+      "amount": 25,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Heal_WeakeningMutator_Action": {
+      "amount": 3,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "HealingFlower_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "HealthFountain_Heal_15_Action": {
+      "amount": 15,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "HealthFountain_Heal_50MissingHealth_Action": {
+      "amount": 50,
+      "ignore_modifiers": true,
+      "mode": "missing_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "HealthFountain_Heal_75MissingHealth_Action": {
+      "amount": 70,
+      "ignore_modifiers": true,
+      "mode": "missing_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "HealthFountain_Heal_AllMissingHealth_Action": {
+      "amount": 100,
+      "ignore_modifiers": true,
+      "mode": "missing_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Invigorate_Rare_Heal_Action": {
+      "amount": 3,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "InvocationUpgrade_Blessing_Heal_Action": {
+      "amount": 2,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Orblord_Set_3_Action": {
+      "amount": 2,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "PilferUpgrade_Uncommon_HP_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "caster"
+    },
+    "Potion_Legendary_Genie_2_HealFull_Action": {
+      "amount": 100,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "RestorationUpgrade_Rare_HealIfHalfHP_Action": {
+      "amount": 3,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Restoration_Heal4_Action": {
+      "amount": {
+        "args": [
+          4,
+          {
+            "id": "f3Yv3WIn",
+            "op": "stat",
+            "side": "caster"
+          }
+        ],
+        "op": "add"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Restoration_Heal_Action": {
+      "amount": {
+        "args": [
+          4,
+          {
+            "id": "f3Yv3WIn",
+            "op": "stat",
+            "side": "caster"
+          }
+        ],
+        "op": "add"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Restoration_Heal_StatusEffect_Action": {
+      "amount": {
+        "args": [
+          1,
+          {
+            "id": "f3Yv3WIn",
+            "op": "stat",
+            "side": "status_source"
+          }
+        ],
+        "op": "add"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "Restoration_Legendary_GreaterRestoration_Heal_Action": {
+      "amount": {
+        "args": [
+          10,
+          {
+            "id": "f3Yv3WIn",
+            "op": "stat",
+            "side": "caster"
+          }
+        ],
+        "op": "add"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Restoration_Legendary_Mend_Heal_Action": {
+      "amount": {
+        "args": [
+          5,
+          {
+            "id": "f3Yv3WIn",
+            "op": "stat",
+            "side": "caster"
+          }
+        ],
+        "op": "add"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Restoration_Legendary_Regeneration_Heal2_Action": {
+      "amount": {
+        "args": [
+          5,
+          {
+            "id": "f3Yv3WIn",
+            "op": "stat",
+            "side": "caster"
+          }
+        ],
+        "op": "add"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "Restoration_Legendary_Regeneration_Heal_Action": {
+      "amount": {
+        "args": [
+          {
+            "effect": "event_effect",
+            "op": "stacks",
+            "side": "status_target"
+          },
+          1
+        ],
+        "op": "mul"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "Season1_010_Scribe_GremlinV_Heal_Action": {
+      "amount": 100,
+      "ignore_modifiers": false,
+      "mode": "max_hp",
+      "owner": "caster",
+      "target": "target"
+    },
+    "SetFirstPhaseAIBehavior_ActionData": {
+      "amount": 100,
+      "ignore_modifiers": true,
+      "mode": "missing_hp",
+      "owner": "target",
+      "target": "target"
+    },
+    "ShieldWallUpgrade_Rare_Heal_Action": {
+      "amount": 2,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "SmallHealthPotion_Consume_Action": {
+      "amount": 5,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "StatUpgrade_AllClasses_Common_MaxHealth_Heal_Action": {
+      "amount": 5,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "StatUpgrade_AllClasses_Epic_MaxHealth_Heal_Action": {
+      "amount": 12,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "StatUpgrade_AllClasses_Legendary_MaxHealth_Heal_Action": {
+      "amount": 100,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "StatUpgrade_AllClasses_Rare_MaxHealth_Heal_Action": {
+      "amount": 9,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "StatUpgrade_AllClasses_Uncommon_MaxHealth_Heal_Action": {
+      "amount": 7,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "ThreadUpgrade_Epic_Sapper_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_source"
+    },
+    "ThreadUpgrade_Epic_Sapper_OnDetach_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_source"
+    },
+    "VestigeAll_Common_VerdantSeed_Heal_Action": {
+      "amount": 2,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Epic_AllyHeal_Heal_Action": {
+      "amount": {
+        "args": [
+          3,
+          {
+            "effect": "VestigeAll_Epic_AllyHeal_StatusEffect",
+            "op": "stacks",
+            "side": "caster"
+          }
+        ],
+        "op": "mul"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "caster",
+      "target": "target"
+    },
+    "VestigeAll_HealOnHitting_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Legendary_PhysicalOnHeal_HealNextTurn_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Rare_APOnCombatEnd_Action": {
+      "amount": {
+        "args": [
+          6,
+          {
+            "effect": "event_effect",
+            "op": "stacks",
+            "side": "status_target"
+          }
+        ],
+        "op": "mul"
+      },
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Rare_APOnCombatEnd_Heal_Action": {
+      "amount": 2,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Rare_HealOnEnemyDeath_Heal_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Rare_VerdantSeedling_Heal_Action": {
+      "amount": 10,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Uncommon_HealOnTurn_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "VestigeAll_Uncommon_VerdantSprout_Heal_Action": {
+      "amount": 4,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "Vigor_Heal_Action": {
+      "amount": 1,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    },
+    "Vigorous_Set_2_Heal_Action": {
+      "amount": 4,
+      "ignore_modifiers": false,
+      "mode": "flat",
+      "owner": "status_source",
+      "target": "status_target"
+    }
+  },
+  "build": 24243,
+  "defaults": {}
+}
