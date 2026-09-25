@@ -443,6 +443,24 @@ catalog["actions"][a["m_Name"]] = {
     "stacks": 0,
 }
 
+# Legendary Shield Bash Headbutt hits the selected enemy for the caster's
+# current shield plus 50. Its second graph damage node is a literal self-hit,
+# so only the first node owns the enemy damage broadcast.
+a = byname["ShieldBashUpgrade_Legendary_Headbutt_Damage_Action"]
+catalog["actions"][a["m_Name"]] = {
+    "amount": {
+        "op": "add",
+        "args": [
+            a["paramInt"],
+            {"op": "stat", "side": "source", "id": resolve(a["paramStatData"])["id"]},
+        ],
+    },
+    "tags": [resolve(t)["id"] for t in a["actionTags"]],
+    "direct": True,
+    "crit": {"op": "stat", "side": "source", "id": "0tuysvGP"},
+    "stacks": 0,
+}
+
 # Legendary Smite Again is an equipment-triggered repeat. Its graph adds the
 # owner's Smite stat to the item's flat 50, then applies only its Magic tag.
 a = byname["VestigeAll_Legendary_SmiteAgain_Action"]

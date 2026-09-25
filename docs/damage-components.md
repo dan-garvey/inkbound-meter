@@ -194,8 +194,10 @@ whose components cannot be reconstructed at all.
 
 ## Known limits
 
-- Initial defaults require a full new-run capture and observed fresh unit creation.
-  Reconnects, resumed units, old journals without recoverable stat history, and
+- Initial defaults require a full new-run capture. Party peers announced as
+  resumed use their inspected immutable unit/class baseline, while observed stat
+  broadcasts replace it; an exact logged-hit match is still required. Reconnects
+  without the run start, old journals without recoverable stat history, and
   unknown builds retain damage totals but do not claim component attribution.
 - Broadcast order can differ from calculation order near phase changes or proc
   chains. Stats captured at the broadcast are not a guaranteed simulation snapshot.

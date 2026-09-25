@@ -125,6 +125,13 @@ class DamageContext:
 
     def apply(self, event: Event) -> None:
         d = event.data
+
+        def observe_shield(entity, value):
+            # Current Energy Shield is a live resource rather than a permanent
+            # stat. The game supplies it with every authoritative health/shield
+            # state, so retain that value for shield-scaling damage formulas.
+            self.stats[entity]["A3xbQ1as"] = value
+
         if event.kind == "source_started":
             self.__init__()
         elif event.kind == "game_build":
@@ -148,6 +155,8 @@ class DamageContext:
                 self.full_history = False
         elif event.kind in ("unit", "player", "class"):
             entity = d["id"]
+            if "shield" in d:
+                observe_shield(entity, d["shield"])
             if "position" in d:
                 self.positions[entity] = d["position"]
             if "hitbox_radius" in d:
@@ -155,7 +164,12 @@ class DamageContext:
             unit = d.get("unit_data")
             if unit and entity not in self.units:
                 self.units[entity] = unit
-                if d.get("resuming") is False and unit in catalog()["units"]:
+                if unit in catalog()["units"]:
+                    # Party peers are commonly announced as resuming even when
+                    # this log contains the run start. Their immutable unit and
+                    # class baselines are still known from the inspected assets;
+                    # later stat broadcasts replace those defaults. Exact hit
+                    # matching remains the guard against unseen loadout state.
                     self.fresh.add(entity)
                     for k, v in catalog()["units"][unit].items():
                         self.stats[entity].setdefault(k, v)
@@ -164,6 +178,8 @@ class DamageContext:
                     self.stats[entity].setdefault(k, v)
         elif event.kind == "stat":
             self.stats[d["id"]][d["stat"]] = d["value"]
+        elif event.kind in ("health", "heal", "shield"):
+            observe_shield(d["id"] if event.kind == "health" else d["target"], d["shield"])
         elif event.kind == "damage_health":
             # This local diagnostic immediately precedes the authoritative
             # damage broadcast. It supplies the post-hit HP needed for the

@@ -145,6 +145,43 @@ def test_legendary_vestige_smite_again_explains_a_near_death_health_cap():
     }
 
 
+def test_resuming_party_members_use_their_inspected_class_baseline_when_log_has_run_start():
+    ctx = DamageContext()
+    for event in [
+        Event("game_build", data={"build": 24243}),
+        Event("run_create"),
+        Event("connection", data={"connected": True}),
+        Event(
+            "player",
+            data={"id": 1, "unit_data": "BasePlayerData", "resuming": True, "class_id": "C05"},
+        ),
+        Event("unit", data={"id": 99, "unit_data": "BasePlayerData", "resuming": True}),
+    ]:
+        ctx.apply(event)
+    assert hit(ctx, 50)["status"] == "matched"
+
+
+def test_current_shield_from_health_state_is_available_to_damage_formula_inputs():
+    ctx = context()
+    ctx.apply(Event("health", data={"id": 1, "hp": 50, "shield": 37, "max_hp": 50}))
+    assert ctx.stats[1]["A3xbQ1as"] == 37
+    ctx.apply(
+        Event(
+            "shield",
+            data={"target": 1, "target_team": "Friendly", "amount": 8, "shield": 45},
+        )
+    )
+    assert ctx.stats[1]["A3xbQ1as"] == 45
+
+
+def test_legendary_headbutt_uses_the_casters_current_shield():
+    ctx = context()
+    stat(ctx, "A3xbQ1as", 5)
+    result = hit(ctx, 55, "ShieldBashUpgrade_Legendary_Headbutt_Damage_Action")
+    assert result["status"] == "matched"
+    assert credits(result) == {"Base effect": 50, "Current Energy Shield": 5}
+
+
 def test_increases_round_up_then_reductions_round_down():
     ctx = context()
     stat(ctx, "K3G3pgjn", 1)

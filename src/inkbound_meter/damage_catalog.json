@@ -7316,6 +7316,30 @@
         "vEmn2POj"
       ]
     },
+    "ShieldBashUpgrade_Legendary_Headbutt_Damage_Action": {
+      "amount": {
+        "args": [
+          50,
+          {
+            "id": "A3xbQ1as",
+            "op": "stat",
+            "side": "source"
+          }
+        ],
+        "op": "add"
+      },
+      "crit": {
+        "id": "0tuysvGP",
+        "op": "stat",
+        "side": "source"
+      },
+      "direct": true,
+      "stacks": 0,
+      "tags": [
+        "zeqa7QsK",
+        "vEmn2POj"
+      ]
+    },
     "Shocked_Damage_Action": {
       "amount": {
         "id": "Shocked_DamageCounter_StatusEffect",
