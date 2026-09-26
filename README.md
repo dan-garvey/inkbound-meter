@@ -99,7 +99,7 @@ same scale, and their legend shares use damage before reductions. These are
 contributions in calculation order, so interaction damage
 is credited to the later modifier, not a claim about damage lost by removing an item.
 
-Version 0.4.12 maps 138 outgoing action definitions from client build **24243**, including
+Version 0.4.13 maps 140 outgoing action definitions from client build **24243**, including
 Frostbite, Burn, Poison, Bleed, Smite and many bindings. It does not yet cover every
 source or boss phase behavior. An unknown build, incomplete initial
 stats, or a mismatched hit is explicit. See [the formula notes](docs/damage-components.md).
@@ -120,6 +120,8 @@ Party members announced as resumed now receive their inspected class baseline wh
 the run start is present in the log, so their exact matching component coverage no
 longer starts at zero. Legendary Shield Bash Headbutt also records its current-shield
 base component when the hit can be reconstructed exactly.
+The run-start snapshot also survives the game's later connection confirmation, and
+Weaver's Thread and Constrict formulas now show their exact per-Thread components.
 Burn now recovers stale stack counts from its recorded turn-end decay, confirms delayed
 on-kill damage bonuses, and accounts for the 1 HP limit on Kraken tentacles. These
 corrections also apply to saved runs when the original log is still available.

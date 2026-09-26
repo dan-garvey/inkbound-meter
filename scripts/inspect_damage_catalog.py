@@ -461,6 +461,55 @@ catalog["actions"][a["m_Name"]] = {
     "stacks": 0,
 }
 
+# Constrict divides its total (flat damage, Constrict damage and per-Thread
+# damage) among the caster's current Thread count. Thread itself is its 35
+# base plus the inspected Thread upgrade stat. Both use their class-specific
+# critical-damage stats and the tags supplied by their action data.
+a = byname["Constrict_Damage_Action"]
+thread_count = {
+    "op": "stacks",
+    "side": "source",
+    "id": "ThreadCount_StatusEffect",
+    # It gates and divides the inspected 150 flat amount. Crediting that
+    # activation as the base preserves the game's per-Thread total while the
+    # later stat terms retain their own components.
+    "name": "Base effect",
+}
+catalog["actions"][a["m_Name"]] = {
+    "amount": {
+        "op": "div",
+        "args": [
+            {
+                "op": "add",
+                "args": [
+                    a["paramInt"],
+                    {
+                        "op": "mul",
+                        "args": [thread_count, {"op": "stat", "side": "source", "id": "4HabNNpb"}],
+                    },
+                    {"op": "stat", "side": "source", "id": "ESuw9gjt"},
+                ],
+            },
+            thread_count,
+        ],
+    },
+    "tags": [resolve(t)["id"] for t in a["actionTags"]],
+    "direct": True,
+    "crit": {"op": "stat", "side": "source", "id": "Lne45zmR"},
+    "stacks": 0,
+}
+a = byname["Thread_Damage_Action"]
+catalog["actions"][a["m_Name"]] = {
+    "amount": {
+        "op": "add",
+        "args": [a["paramInt"], {"op": "stat", "side": "source", "id": "3tn7BDf0"}],
+    },
+    "tags": [resolve(t)["id"] for t in a["actionTags"]],
+    "direct": True,
+    "crit": {"op": "stat", "side": "source", "id": "lpwMldc4"},
+    "stacks": 0,
+}
+
 # Legendary Smite Again is an equipment-triggered repeat. Its graph adds the
 # owner's Smite stat to the item's flat 50, then applies only its Magic tag.
 a = byname["VestigeAll_Legendary_SmiteAgain_Action"]

@@ -123,6 +123,19 @@ class DamageContext:
         self.cast_timestamps: dict[int, str] = {}
         self.damage_health: dict | None = None
 
+    def clear_session_state(self) -> None:
+        """Discard observed combat state while retaining the mapped game build."""
+        self.stats.clear()
+        self.statuses.clear()
+        self.units.clear()
+        self.fresh.clear()
+        self.positions.clear()
+        self.hitbox_radii.clear()
+        self.cast_abilities.clear()
+        self.cast_timestamps.clear()
+        self.damage_health = None
+        self.full_history = False
+
     def apply(self, event: Event) -> None:
         d = event.data
 
@@ -137,18 +150,15 @@ class DamageContext:
         elif event.kind == "game_build":
             self.build = d["build"]
         elif event.kind == "run_create":
+            # The game can announce resumed peers immediately after this event
+            # but before its connection confirmation. Start a new snapshot now
+            # so those authoritative player records survive that confirmation.
+            self.clear_session_state()
             self.pending_run = True
         elif event.kind == "connection":
             if d["connected"]:
-                self.stats.clear()
-                self.statuses.clear()
-                self.units.clear()
-                self.fresh.clear()
-                self.positions.clear()
-                self.hitbox_radii.clear()
-                self.cast_abilities.clear()
-                self.cast_timestamps.clear()
-                self.damage_health = None
+                if not self.pending_run:
+                    self.clear_session_state()
                 self.full_history = self.pending_run
                 self.pending_run = False
             else:
@@ -350,6 +360,13 @@ class DamageContext:
                 return sum(args)
             if op == "mul":
                 return args[0] * args[1]
+            if op == "div":
+                if not args[1]:
+                    # During waterfall attribution a variable starts disabled.
+                    # A denominator driven by that same variable therefore
+                    # contributes no base damage until it is enabled.
+                    return 0
+                return trunc_div(args[0], args[1])
             if op == "div100":
                 return trunc_div(args[0], 100)
             raise ValueError(f"Unknown formula operation {op}")
@@ -522,7 +539,11 @@ class DamageContext:
             result["before_defenses"] = before_defenses * stacks
             result["prevention"] = [{**p, "amount": p["amount"] * stacks} for p in prevention]
         health = self.damage_health
-        near_death = self.stacks(d["target"], "CanBeNearDeath_StatusEffect")
+        # Client logs expose the helper status on standard near-death enemies;
+        # the original gameplay status is retained for older captures.
+        near_death = self.stacks(d["target"], "CanBeNearDeath_StatusEffect") or self.stacks(
+            d["target"], "CanBeNearDeath_AddHelperStatus_StatusEffect"
+        )
         if (
             near_death
             and health

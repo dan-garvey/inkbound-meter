@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "inkbound-meter"
-version = "0.4.12"
+version = "0.4.13"
 description = "Local combat meters and a live party overlay for Inkbound"
 requires-python = ">=3.11"
 dependencies = ["PySide6>=6.8,<7"]

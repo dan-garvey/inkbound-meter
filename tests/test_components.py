@@ -145,6 +145,15 @@ def test_legendary_vestige_smite_again_explains_a_near_death_health_cap():
     }
 
 
+def test_near_death_helper_status_explains_the_one_hp_floor():
+    ctx = context()
+    status(ctx, "CanBeNearDeath_AddHelperStatus_StatusEffect", 1, target=99, source=99)
+    ctx.apply(Event("damage_health", data={"target": 99, "source": 1, "amount": 45, "hp": 1}))
+    result = hit(ctx, 45, "VestigeAll_Legendary_SmiteAgain_Action")
+    assert result["status"] == "matched"
+    assert credits(result)["Near-death limit"] == -5
+
+
 def test_resuming_party_members_use_their_inspected_class_baseline_when_log_has_run_start():
     ctx = DamageContext()
     for event in [
@@ -156,6 +165,22 @@ def test_resuming_party_members_use_their_inspected_class_baseline_when_log_has_
             data={"id": 1, "unit_data": "BasePlayerData", "resuming": True, "class_id": "C05"},
         ),
         Event("unit", data={"id": 99, "unit_data": "BasePlayerData", "resuming": True}),
+    ]:
+        ctx.apply(event)
+    assert hit(ctx, 50)["status"] == "matched"
+
+
+def test_resuming_party_member_announced_before_connection_keeps_its_run_baseline():
+    ctx = DamageContext()
+    for event in [
+        Event("game_build", data={"build": 24243}),
+        Event("run_create"),
+        Event(
+            "player",
+            data={"id": 1, "unit_data": "BasePlayerData", "resuming": True, "class_id": "C05"},
+        ),
+        Event("connection", data={"connected": True}),
+        Event("unit", data={"id": 99, "unit_data": "BasePlayerData", "resuming": False}),
     ]:
         ctx.apply(event)
     assert hit(ctx, 50)["status"] == "matched"
@@ -180,6 +205,22 @@ def test_legendary_headbutt_uses_the_casters_current_shield():
     result = hit(ctx, 55, "ShieldBashUpgrade_Legendary_Headbutt_Damage_Action")
     assert result["status"] == "matched"
     assert credits(result) == {"Base effect": 50, "Current Energy Shield": 5}
+
+
+def test_weaver_thread_and_constrict_use_their_inspected_thread_formulas():
+    ctx = context()
+    stat(ctx, "3tn7BDf0", 20)
+    assert hit(ctx, 55, "Thread_Damage_Action")["status"] == "matched"
+    status(ctx, "ThreadCount_StatusEffect", 3)
+    stat(ctx, "ESuw9gjt", 15)
+    stat(ctx, "4HabNNpb", 5)
+    result = hit(ctx, 60, "Constrict_Damage_Action")
+    assert result["status"] == "matched"
+    assert credits(result) == {
+        "Base effect": 50,
+        "Constrict Damage": 5,
+        "Constrict Damage Per Thread": 5,
+    }
 
 
 def test_increases_round_up_then_reductions_round_down():

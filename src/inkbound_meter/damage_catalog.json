@@ -5459,6 +5459,57 @@
         "Bwz1e5sc"
       ]
     },
+    "Constrict_Damage_Action": {
+      "amount": {
+        "args": [
+          {
+            "args": [
+              150,
+              {
+                "args": [
+                  {
+                    "id": "ThreadCount_StatusEffect",
+                    "name": "Base effect",
+                    "op": "stacks",
+                    "side": "source"
+                  },
+                  {
+                    "id": "4HabNNpb",
+                    "op": "stat",
+                    "side": "source"
+                  }
+                ],
+                "op": "mul"
+              },
+              {
+                "id": "ESuw9gjt",
+                "op": "stat",
+                "side": "source"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "ThreadCount_StatusEffect",
+            "name": "Base effect",
+            "op": "stacks",
+            "side": "source"
+          }
+        ],
+        "op": "div"
+      },
+      "crit": {
+        "id": "Lne45zmR",
+        "op": "stat",
+        "side": "source"
+      },
+      "direct": true,
+      "stacks": 0,
+      "tags": [
+        "zeqa7QsK",
+        "Bwz1e5sc"
+      ]
+    },
     "CryostasisUpgrade_Legendary_Zero_Action": {
       "amount": {
         "args": [
@@ -7194,6 +7245,30 @@
         "vEmn2POj"
       ]
     },
+    "ShieldBashUpgrade_Legendary_Headbutt_Damage_Action": {
+      "amount": {
+        "args": [
+          50,
+          {
+            "id": "A3xbQ1as",
+            "op": "stat",
+            "side": "source"
+          }
+        ],
+        "op": "add"
+      },
+      "crit": {
+        "id": "0tuysvGP",
+        "op": "stat",
+        "side": "source"
+      },
+      "direct": true,
+      "stacks": 0,
+      "tags": [
+        "zeqa7QsK",
+        "vEmn2POj"
+      ]
+    },
     "ShieldBashUpgrade_Legendary_ShieldSlam_Action": {
       "amount": {
         "args": [
@@ -7300,30 +7375,6 @@
               }
             ],
             "op": "add"
-          }
-        ],
-        "op": "add"
-      },
-      "crit": {
-        "id": "0tuysvGP",
-        "op": "stat",
-        "side": "source"
-      },
-      "direct": true,
-      "stacks": 0,
-      "tags": [
-        "zeqa7QsK",
-        "vEmn2POj"
-      ]
-    },
-    "ShieldBashUpgrade_Legendary_Headbutt_Damage_Action": {
-      "amount": {
-        "args": [
-          50,
-          {
-            "id": "A3xbQ1as",
-            "op": "stat",
-            "side": "source"
           }
         ],
         "op": "add"
@@ -8068,6 +8119,30 @@
       "amount": {
         "args": [
           45,
+          {
+            "id": "3tn7BDf0",
+            "op": "stat",
+            "side": "source"
+          }
+        ],
+        "op": "add"
+      },
+      "crit": {
+        "id": "lpwMldc4",
+        "op": "stat",
+        "side": "source"
+      },
+      "direct": true,
+      "stacks": 0,
+      "tags": [
+        "IfpqPcVw",
+        "xLQXgcfu"
+      ]
+    },
+    "Thread_Damage_Action": {
+      "amount": {
+        "args": [
+          35,
           {
             "id": "3tn7BDf0",
             "op": "stat",

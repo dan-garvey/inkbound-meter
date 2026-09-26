@@ -200,7 +200,9 @@ whose components cannot be reconstructed at all.
   without the run start, old journals without recoverable stat history, and
   unknown builds retain damage totals but do not claim component attribution.
 - Broadcast order can differ from calculation order near phase changes or proc
-  chains. Stats captured at the broadcast are not a guaranteed simulation snapshot.
+  chains. In particular, a boss phase transition can remove the originating DoT
+  before emitting its final positive damage broadcast. Stats captured at the
+  broadcast are not a guaranteed simulation snapshot.
 - Boss phase HP clamps, immunity, direct-target difficulty scaling, segmented distance multipliers,
   and unsupported action graphs remain unresolved. Identical totals alone cannot
   prove every hidden input was captured; “reconstructed” means formula-matched.
