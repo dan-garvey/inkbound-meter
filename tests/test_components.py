@@ -121,6 +121,34 @@ def test_divine_touch_smite_proc_uses_its_holders_smite_damage():
     assert credits(result) == {"Base effect": 50, "Smite damage": 60}
 
 
+def test_cross_party_invocation_smite_keeps_the_recipient_as_its_formula_source():
+    ctx = context()
+    ctx.apply(
+        Event(
+            "player",
+            data={"id": 2, "unit_data": "BasePlayerData", "resuming": False, "class_id": "C03"},
+        )
+    )
+    stat(ctx, "l6KzwBB0", 60, entity=2)
+    status(ctx, "Invocation_DivineTouch_StatusEffect", 1, target=2, source=1)
+    event = parse_line(
+        damage(
+            110,
+            source=2,
+            action="Smite_Damage_StatusEffect_Action",
+            AbilityData="(none)",
+            StatusEffectData="StatusEffectData-Invocation_DivineTouch_StatusEffect (fixture)",
+        )
+    )
+    assert ctx.invocation_smite(event) == {
+        "action": "Invocation_DivineTouch_Smite",
+        "caster": 1,
+        "recipient": 2,
+        "upgrade": "Divine Touch",
+    }
+    assert credits(ctx.explain(event)) == {"Base effect": 50, "Smite damage": 60}
+
+
 def test_legendary_vestige_smite_again_uses_its_owners_smite_and_magic_tags():
     ctx = context()
     stat(ctx, "l6KzwBB0", 60)

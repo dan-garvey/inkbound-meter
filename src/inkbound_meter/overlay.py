@@ -276,6 +276,21 @@ class SourceRow(QWidget):
         top.addWidget(caption, 1)
         top.addWidget(label(f"{data['damage']:,} · {data['share']:.0%}", role="muted"))
         layout.addLayout(top)
+        if invocation := data.get("invocation"):
+            triggers = invocation["triggers"]
+            names = ", ".join(
+                "self" if trigger["id"] == invocation["caster"] else trigger["name"]
+                for trigger in triggers
+            )
+            trigger_note = label(f"Invocation proc · triggered by {names}", role="muted")
+            trigger_note.setToolTip(
+                "Damage is credited to the Invocation caster. The triggering party member's "
+                "Smite stats still determine the hit.\n"
+                + "\n".join(
+                    f"{trigger['name']}: {trigger['damage']:,} damage" for trigger in triggers
+                )
+            )
+            layout.addWidget(trigger_note)
         detail = data["breakdown"]
         unresolved = max(detail["unresolved_damage"], data["damage"] - detail["matched_damage"])
         entries = component_entries(detail["components"], unresolved)

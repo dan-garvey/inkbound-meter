@@ -99,7 +99,7 @@ same scale, and their legend shares use damage before reductions. These are
 contributions in calculation order, so interaction damage
 is credited to the later modifier, not a claim about damage lost by removing an item.
 
-Version 0.4.13 maps 140 outgoing action definitions from client build **24243**, including
+Version 0.4.14 maps 140 outgoing action definitions from client build **24243**, including
 Frostbite, Burn, Poison, Bleed, Smite and many bindings. It does not yet cover every
 source or boss phase behavior. An unknown build, incomplete initial
 stats, or a mismatched hit is explicit. See [the formula notes](docs/damage-components.md).
@@ -113,6 +113,9 @@ Authoritative zero-damage broadcasts from immunity or phase states are excluded
 from the meter, since they do not represent dealt damage.
 Divine Touch's Smite status proc is mapped separately from the normal Smite action:
 it contributes its 50 base damage plus the holder's Smite damage to each target.
+Divine Touch and Divine Storm procs are credited to the Invocation caster, including
+when another party member triggers the Smite; the component breakdown continues to
+use that triggering holder's stats.
 Legendary Vestige Smite Again uses that same 50-plus-holder-Smite formula with its
 Magic tag. Damage clipped by a linked enemy's 1 HP near-death floor is shown as its
 own negative component rather than left unresolved.

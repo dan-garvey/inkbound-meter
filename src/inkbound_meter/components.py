@@ -223,6 +223,45 @@ class DamageContext:
             and (source is None or source == v["source"])
         )
 
+    def invocation_smite(self, event: Event) -> dict | None:
+        """Return the Invocation caster for a Smite proc, when the log proves it.
+
+        Invocation's status is attached to the party member who triggers the
+        Smite, while its status source is the player who cast Invocation.  The
+        damage broadcast only names the holder, so its normal formula must
+        continue to use that holder's stats.  This association is solely for
+        contribution ownership and only applies when one active status instance
+        identifies one caster.
+        """
+        d = event.data
+        invocation_sources = {
+            ("Invocation_DivineTouch_StatusEffect", "Smite_Damage_StatusEffect_Action"): (
+                "Invocation_DivineTouch_Smite",
+                "Divine Touch",
+            ),
+            ("InvocationUpgrade_DivineStorm_StatusEffect", "Smite_Damage_Action"): (
+                "Invocation_DivineStorm_Smite",
+                "Divine Storm",
+            ),
+        }
+        source = invocation_sources.get((d.get("effect"), d.get("action")))
+        if source is None:
+            return None
+        casters = {
+            status["source"]
+            for (target, _), status in self.statuses.items()
+            if target == d["source"] and status["effect"] == d["effect"] and status["stacks"] > 0
+        }
+        if len(casters) != 1:
+            return None
+        action, upgrade = source
+        return {
+            "action": action,
+            "caster": casters.pop(),
+            "recipient": d["source"],
+            "upgrade": upgrade,
+        }
+
     def explain(
         self,
         event: Event,

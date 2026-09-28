@@ -26,6 +26,12 @@ CLASS_NAMES = {
 
 
 def source_label(raw: str) -> str:
+    invocation_labels = {
+        "Invocation_DivineTouch_Smite": "Invocation · Divine Touch Smite",
+        "Invocation_DivineStorm_Smite": "Invocation · Divine Storm Smite",
+    }
+    if raw in invocation_labels:
+        return invocation_labels[raw]
     if raw == "unknown":
         return "Unknown source"
     raw = raw.replace("FrostBite", "Frostbite")
@@ -55,12 +61,23 @@ class Player:
 class Totals:
     damage: dict[int, Counter] = field(default_factory=lambda: defaultdict(Counter))
     breakdowns: dict[tuple[int, str], Breakdown] = field(default_factory=dict)
+    invocation_triggers: dict[tuple[int, str], Counter] = field(
+        default_factory=lambda: defaultdict(Counter)
+    )
     hits: int = 0
 
     def add(
-        self, source: int, action: str, amount: int, explanation: dict | None = None
+        self,
+        source: int,
+        action: str,
+        amount: int,
+        explanation: dict | None = None,
+        *,
+        invocation: dict | None = None,
     ) -> Breakdown | None:
         self.damage[source][action] += amount
+        if invocation is not None:
+            self.invocation_triggers[source, action][invocation["recipient"]] += amount
         self.hits += 1
         if explanation is not None:
             breakdown = self.breakdowns.setdefault((source, action), Breakdown())
@@ -101,6 +118,26 @@ class Totals:
                             "damage": value,
                             "share": value / total if total else 0.0,
                             "breakdown": self.breakdowns.get((entity, key), Breakdown()).view(),
+                            **(
+                                {
+                                    "invocation": {
+                                        "caster": entity,
+                                        "triggers": [
+                                            {
+                                                "id": recipient,
+                                                "name": player_name(players, recipient),
+                                                "damage": damage,
+                                            }
+                                            for recipient, damage in sorted(
+                                                self.invocation_triggers[entity, key].items(),
+                                                key=lambda pair: (-pair[1], pair[0]),
+                                            )
+                                        ],
+                                    }
+                                }
+                                if (entity, key) in self.invocation_triggers
+                                else {}
+                            ),
                         }
                         for key, value in sorted(
                             sources.items(), key=lambda pair: (-pair[1], pair[0])
@@ -130,6 +167,11 @@ class Totals:
             if sum(will_spent[entity] for entity in players)
             else None,
         }
+
+
+def player_name(players: dict[int, Player], entity: int) -> str:
+    player = players.get(entity)
+    return player.name if player and player.name else f"Player {entity}"
 
 
 @dataclass
@@ -334,6 +376,16 @@ class Meter:
             if not run.encounters:
                 run.encounters.append(Encounter(1, None, partial=True))
             source = data["action"] or data["effect"] or data["ability"] or "unknown"
+            invocation = self.damage_context.invocation_smite(event)
+            owner = data["source"]
+            # A status can outlive a player-identification record in partial
+            # captures. Only move the contribution when the caster is known to
+            # this run; otherwise retain the damage broadcast's owner.
+            if invocation and invocation["caster"] in run.players:
+                owner = invocation["caster"]
+                source = invocation["action"]
+            else:
+                invocation = None
             try:
                 explanation = self.damage_context.explain(event)
             except (ValueError, KeyError, TypeError, ArithmeticError, AssertionError) as exc:
@@ -345,8 +397,12 @@ class Meter:
                     "error_type": type(exc).__name__,
                 }
             breakdowns = (
-                run.totals.add(data["source"], source, data["amount"], explanation),
-                run.encounters[-1].totals.add(data["source"], source, data["amount"], explanation),
+                run.totals.add(
+                    owner, source, data["amount"], explanation, invocation=invocation
+                ),
+                run.encounters[-1].totals.add(
+                    owner, source, data["amount"], explanation, invocation=invocation
+                ),
             )
             self.burn.capture(event, self.damage_context, explanation, breakdowns, previous_health)
 

@@ -169,6 +169,10 @@ not damage dealt.
 Divine Touch's on-hit Smite proc is a separate indirect action. Its inspected graph
 deals **50 + the status holder's Smite damage** to the context target; it therefore
 appears as its own source row rather than being folded into the normal Smite action.
+When Invocation is cast on another party member, the meter credits Divine Touch and
+Divine Storm Smite procs to the Invocation caster, labels the party member that
+triggered them, and continues to calculate their components from that holder's
+Smite stats.
 
 Direct hits additionally apply binding multipliers, applicable global/ability
 status bonuses, target vulnerability/weakness, and crit damage. The game computes

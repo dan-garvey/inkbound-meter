@@ -36,6 +36,79 @@ def test_identical_same_timestamp_procs_are_three_distinct_hits():
     assert meter.snapshot()["damage_events"] == 3
 
 
+@pytest.mark.parametrize(
+    ("effect", "action", "expected_source"),
+    [
+        (
+            "Invocation_DivineTouch_StatusEffect",
+            "Smite_Damage_StatusEffect_Action",
+            "Invocation · Divine Touch Smite",
+        ),
+        (
+            "InvocationUpgrade_DivineStorm_StatusEffect",
+            "Smite_Damage_Action",
+            "Invocation · Divine Storm Smite",
+        ),
+    ],
+)
+def test_invocation_smite_is_credited_to_its_caster_and_names_the_triggering_player(
+    effect, action, expected_source
+):
+    meter = Meter()
+    begin(meter)
+    meter.apply(Event("player", data={"id": 2, "name": "Fetch"}))
+    meter.apply(
+        Event(
+            "status",
+            data={"target": 2, "source": 1, "instance": 31, "effect": effect, "stacks": 1},
+        )
+    )
+    meter.apply(
+        parse_line(
+            damage(
+                110,
+                source=2,
+                action=action,
+                AbilityData="(none)",
+                StatusEffectData=f"StatusEffectData-{effect} (fixture)",
+            )
+        )
+    )
+
+    players = {player["id"]: player for player in meter.snapshot()["players"]}
+    assert players[1]["damage"] == 110
+    assert players[2]["damage"] == 0
+    source = players[1]["sources"][0]
+    assert source["name"] == expected_source
+    assert source["invocation"] == {
+        "caster": 1,
+        "triggers": [{"id": 2, "name": "Fetch", "damage": 110}],
+    }
+
+
+def test_smite_without_a_matching_invocation_status_stays_with_its_damage_source():
+    meter = Meter()
+    begin(meter)
+    meter.apply(Event("player", data={"id": 2, "name": "Fetch"}))
+    meter.apply(
+        parse_line(
+            damage(
+                110,
+                source=2,
+                action="Smite_Damage_Action",
+                AbilityData="(none)",
+                StatusEffectData="StatusEffectData-InvocationUpgrade_DivineStorm_StatusEffect "
+                "(fixture)",
+            )
+        )
+    )
+
+    players = {player["id"]: player for player in meter.snapshot()["players"]}
+    assert players[1]["damage"] == 0
+    assert players[2]["damage"] == 110
+    assert players[2]["sources"][0]["name"] == "Smite"
+
+
 def test_only_damage_broadcast_counts_not_diagnostic_or_subscriber():
     line = damage()
     assert (
